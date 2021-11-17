@@ -61,7 +61,7 @@ export default function Header() {
                 <div className="container max-w-screen-xl m-auto">
                     <div className="flex items-center">
                         <div className="w-1/5">
-                            <Link href="/">
+                            <Link href="/" passHref>
                                 <Image src={siteLogo} alt="Logo" width={80} height={80}/>
                             </Link>
                         </div>
@@ -126,16 +126,16 @@ export default function Header() {
                         <div className="w-4/5">
                             <ul className="flex justify-start items-center">
                                 <li className="px-4 py-3 cursor-pointer hover:text-red-500">
-                                    <Link href="/">ទំព័រដើម</Link>
+                                    <Link href="/" passHref>ទំព័រដើម</Link>
                                 </li>
                                 <li className="px-4 py-3 cursor-pointer hover:text-red-500">
-                                    <Link href="">ផលិតផល</Link>
+                                    <Link href="" passHref>ផលិតផល</Link>
                                 </li>
                                 <li className="px-4 py-3 cursor-pointer hover:text-red-500">
-                                    <Link href="">អចលទ្រព្យ</Link>
+                                    <Link href="" passHref>អចលទ្រព្យ</Link>
                                 </li>
                                 <li className="px-4 py-3 cursor-pointer hover:text-red-500">
-                                    <Link href="">ព័ត៌មាន</Link>
+                                    <Link href="" passHref>ព័ត៌មាន</Link>
                                 </li>
                             </ul>
                         </div>

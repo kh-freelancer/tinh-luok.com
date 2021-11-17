@@ -17,7 +17,7 @@ export default function Home() {
               <div className="hidden md:block w-1/2 md:w-1/5 bg-white">
                 <ul>
                   <li className="cursor-pointer hover:shadow-md">
-                    <Link href="/">
+                    <Link href="/" passHref>
                       <div className="flex justify-between px-2 py-2">
                         អេឡិចត្រូនិច
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -27,7 +27,7 @@ export default function Home() {
                     </Link>
                   </li>
                   <li className="leading-8 cursor-pointer hover:shadow-md">
-                    <Link href="/">
+                    <Link href="/" passHref>
                       <div className="flex justify-between px-2 py-2">
                       សំភារៈកីឡា និង កម្សាន្ត
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
