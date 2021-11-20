@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
+import PRODUCT_IMAGES from './product_images'
 import ImageAds from '../public/images/advertisings/its_banner-02.png'
 import TopSlider from '../components/TopSlider'
 import LSlider from '../components/LeftSlider'
@@ -79,7 +80,7 @@ export default function Home() {
                     </span>
                   </div>
                   <div className="p-2 overflow-hidden">
-                    <img src="images/products/14.jpg"/>
+                    <Image src={PRODUCT_IMAGES['pro-14']}/>
                   </div>
                   <div className="py-2 font-sans text-center">
                     <div className="px-3">
@@ -115,7 +116,7 @@ export default function Home() {
                     </span>
                   </div>
                   <div className="p-2 overflow-hidden">
-                    <img src="images/products/2.png"/>
+                  <Image src={PRODUCT_IMAGES['pro-2']}/>
                   </div>
                   <div className="py-2 font-sans text-center">
                     <div className="px-3">
@@ -151,7 +152,7 @@ export default function Home() {
                     </span>
                   </div>
                   <div className="p-2 overflow-hidden">
-                    <img src="images/products/3.png"/>
+                  <Image src={PRODUCT_IMAGES['pro-3']}/>
                   </div>
                   <div className="py-2 font-sans text-center">
                     <div className="px-3">
@@ -187,7 +188,7 @@ export default function Home() {
                     </span>
                   </div>
                   <div className="p-2 overflow-hidden">
-                    <img src="images/products/4.png"/>
+                  <Image src={PRODUCT_IMAGES['pro-4']}/>
                   </div>
                   <div className="py-2 font-sans text-center">
                     <div className="px-3">
@@ -223,7 +224,7 @@ export default function Home() {
                     </span>
                   </div>
                   <div className="p-2 overflow-hidden">
-                    <img src="images/products/5.png"/>
+                  <Image src={PRODUCT_IMAGES['pro-5']}/>
                   </div>
                   <div className="py-2 font-sans text-center">
                     <div className="px-3">
@@ -259,7 +260,7 @@ export default function Home() {
                     </span>
                   </div>
                   <div className="p-2 overflow-hidden">
-                    <img src="images/products/6.png"/>
+                  <Image src={PRODUCT_IMAGES['pro-6']}/>
                   </div>
                   <div className="py-2 font-sans text-center">
                     <div className="px-3">
@@ -295,7 +296,7 @@ export default function Home() {
                     </span>
                   </div>
                   <div className="p-2 overflow-hidden">
-                    <img src="images/products/7.png"/>
+                  <Image src={PRODUCT_IMAGES['pro-7']}/>
                   </div>
                   <div className="py-2 font-sans text-center">
                     <div className="px-3">
@@ -331,7 +332,7 @@ export default function Home() {
                     </span>
                   </div>
                   <div className="p-2 overflow-hidden">
-                    <img src="images/products/8.png"/>
+                  <Image src={PRODUCT_IMAGES['pro-8']}/>
                   </div>
                   <div className="py-2 font-sans text-center">
                     <div className="px-3">
@@ -367,7 +368,7 @@ export default function Home() {
                     </span>
                   </div>
                   <div className="p-2 overflow-hidden">
-                    <img src="images/products/9.png"/>
+                  <Image src={PRODUCT_IMAGES['pro-9']}/>
                   </div>
                   <div className="py-2 font-sans text-center">
                     <div className="px-3">
@@ -403,7 +404,7 @@ export default function Home() {
                     </span>
                   </div>
                   <div className="p-2 overflow-hidden">
-                    <img src="images/products/10.png"/>
+                  <Image src={PRODUCT_IMAGES['pro-10']}/>
                   </div>
                   <div className="py-2 font-sans text-center">
                     <div className="px-3">
@@ -439,7 +440,7 @@ export default function Home() {
                     </span>
                   </div>
                   <div className="p-2 overflow-hidden">
-                    <img src="images/products/11.png"/>
+                    	<Image src={PRODUCT_IMAGES['pro-11']} alt=""/>
                   </div>
                   <div className="py-2 font-sans text-center">
                     <div className="px-3">
@@ -475,7 +476,7 @@ export default function Home() {
                     </span>
                   </div>
                   <div className="p-2 overflow-hidden">
-                    <img src="images/products/12.png"/>
+                  <Image src={PRODUCT_IMAGES['pro-12']} alt=""/>
                   </div>
                   <div className="py-2 font-sans text-center">
                     <div className="px-3">
