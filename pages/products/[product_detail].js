@@ -44,6 +44,9 @@ export default function ProductDetail(){
                                     <div>
                                         <label>ទំហំ:</label>
                                     </div>
+                                    <div>
+                                        <label>Shipping: Support Express</label>
+                                    </div>
                                 </div>
                             </div>
                         </div>

@@ -1,10 +1,13 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
+import ImageAds from '../public/images/advertisings/its_banner-02.png'
 import TopSlider from '../components/TopSlider'
 import LSlider from '../components/LeftSlider'
 import RSlider from '../components/RightSlider'
 
 export default function Home() {
+  
   return (
       <div>
         <Head>
@@ -61,7 +64,7 @@ export default function Home() {
               </div>
             </div>
             <div className="mx-4 md:mx-0 mt-5 mb-5 object-cover">
-              <img className="w-full" src="/images/advertisings/its_banner-02.png"/>
+              <Image className="w-full" src={ImageAds} width="1500" height="180"/>
             </div>
             
             <div className="mx-4 md:mx-0 p-2 mb-3 bg-white border">
