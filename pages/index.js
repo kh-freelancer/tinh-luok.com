@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 import PRODUCT_IMAGES from './product_images'
+import USER_IMAGES from './user_image'
 import FOOTER_IMAGE from './footer_image'
 import ImageAds from '../public/images/advertisings/its_banner-02.png'
 import TopSlider from '../components/TopSlider'
@@ -95,7 +96,7 @@ export default function Home() {
                       <div className="px-3 flex justify-between">
                         <div className="flex items-center">
                         <div className="rounded-full w-6 h-6 items-center overflow-hidden">
-                            <img src="images/users/sron-chhitly.jpeg" className="w-6 h-6 rounded-full object-cover"/>
+                            <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
                           </div>
                           <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
                         </div>
@@ -131,7 +132,7 @@ export default function Home() {
                       <div className="px-3 flex justify-between">
                         <div className="flex items-center">
                         <div className="rounded-full w-6 h-6 items-center overflow-hidden">
-                            <img src="images/users/sron-chhitly.jpeg" className="w-6 h-6 rounded-full object-cover"/>
+                            <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
                           </div>
                           <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
                         </div>
@@ -167,7 +168,7 @@ export default function Home() {
                       <div className="px-3 flex justify-between">
                         <div className="flex items-center">
                         <div className="rounded-full w-6 h-6 items-center overflow-hidden">
-                            <img src="images/users/sron-chhitly.jpeg" className="w-6 h-6 rounded-full object-cover"/>
+                            <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
                           </div>
                           <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
                         </div>
@@ -203,7 +204,7 @@ export default function Home() {
                       <div className="px-3 flex justify-between">
                         <div className="flex items-center">
                         <div className="rounded-full w-6 h-6 items-center overflow-hidden">
-                            <img src="images/users/sron-chhitly.jpeg" className="w-6 h-6 rounded-full object-cover"/>
+                            <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
                           </div>
                           <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
                         </div>
@@ -239,7 +240,7 @@ export default function Home() {
                       <div className="px-3 flex justify-between">
                         <div className="flex items-center">
                         <div className="rounded-full w-6 h-6 items-center overflow-hidden">
-                            <img src="images/users/sron-chhitly.jpeg" className="w-6 h-6 rounded-full object-cover"/>
+                            <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
                           </div>
                           <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
                         </div>
@@ -275,7 +276,7 @@ export default function Home() {
                       <div className="px-3 flex justify-between">
                         <div className="flex items-center">
                         <div className="rounded-full w-6 h-6 items-center overflow-hidden">
-                            <img src="images/users/sron-chhitly.jpeg" className="w-6 h-6 rounded-full object-cover"/>
+                            <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
                           </div>
                           <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
                         </div>
@@ -311,7 +312,7 @@ export default function Home() {
                       <div className="px-3 flex justify-between">
                         <div className="flex items-center">
                         <div className="rounded-full w-6 h-6 items-center overflow-hidden">
-                            <img src="images/users/sron-chhitly.jpeg" className="w-6 h-6 rounded-full object-cover"/>
+                            <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
                           </div>
                           <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
                         </div>
@@ -347,7 +348,7 @@ export default function Home() {
                       <div className="px-3 flex justify-between">
                         <div className="flex items-center">
                         <div className="rounded-full w-6 h-6 items-center overflow-hidden">
-                            <img src="images/users/sron-chhitly.jpeg" className="w-6 h-6 rounded-full object-cover"/>
+                            <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
                           </div>
                           <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
                         </div>
@@ -383,7 +384,7 @@ export default function Home() {
                       <div className="px-3 flex justify-between">
                         <div className="flex items-center">
                         <div className="rounded-full w-6 h-6 items-center overflow-hidden">
-                            <img src="images/users/sron-chhitly.jpeg" className="w-6 h-6 rounded-full object-cover"/>
+                            <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
                           </div>
                           <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
                         </div>
@@ -419,7 +420,7 @@ export default function Home() {
                       <div className="px-3 flex justify-between">
                         <div className="flex items-center">
                         <div className="rounded-full w-6 h-6 items-center overflow-hidden">
-                            <img src="images/users/sron-chhitly.jpeg" className="w-6 h-6 rounded-full object-cover"/>
+                            <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
                           </div>
                           <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
                         </div>
@@ -455,7 +456,7 @@ export default function Home() {
                       <div className="px-3 flex justify-between">
                         <div className="flex items-center">
                         <div className="rounded-full w-6 h-6 items-center overflow-hidden">
-                            <img src="images/users/sron-chhitly.jpeg" className="w-6 h-6 rounded-full object-cover"/>
+                            <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
                           </div>
                           <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
                         </div>
@@ -491,7 +492,7 @@ export default function Home() {
                       <div className="px-3 flex justify-between">
                         <div className="flex items-center">
                         <div className="rounded-full w-6 h-6 items-center overflow-hidden">
-                            <img src="images/users/sron-chhitly.jpeg" className="w-6 h-6 rounded-full object-cover"/>
+                            <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
                           </div>
                           <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
                         </div>
