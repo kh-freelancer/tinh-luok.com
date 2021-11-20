@@ -1,3 +1,6 @@
+import Image from "next/image"
+import PRODUCT_IMAGES from "../product_images"
+
 export default function ProductDetail(){
     return (
         <>
@@ -7,21 +10,21 @@ export default function ProductDetail(){
                         <div className="flex bg-white py-10 border-b">
                             <div className="w-2/4">
                                 <div className="p-3">
-                                    <img src="../images/products/27.png" className="w-full h-full object-cover"/>
+                                    <Image src={PRODUCT_IMAGES["pro-27"]} className="w-full h-full object-cover" alt=""/>
                                 </div>
                                 <div>
                                     <div className="flex">
                                         <div className="w-24 border rounded p-3 m-2 cursor-pointer hover:border-red-500">
-                                            <img src="../images/products/23.png"/>
+                                        <Image src={PRODUCT_IMAGES["pro-23"]} className="w-full h-full object-cover" alt=""/>
                                         </div>
                                         <div className="w-24 border rounded p-3 m-2 cursor-pointer hover:border-red-500">
-                                            <img src="../images/products/25.jpg"/>
+                                        <Image src={PRODUCT_IMAGES["pro-25"]} className="w-full h-full object-cover" alt=""/>
                                         </div>
                                         <div className="w-24 border rounded p-3 m-2 cursor-pointer hover:border-red-500">
-                                            <img src="../images/products/15.jpg"/>
+                                        <Image src={PRODUCT_IMAGES["pro-15"]} className="w-full h-full object-cover" alt=""/>
                                         </div>
                                         <div className="w-24 border rounded p-3 m-2 cursor-pointer hover:border-red-500">
-                                            <img src="../images/products/4.png"/>
+                                        <Image src={PRODUCT_IMAGES["pro-4"]} className="w-full h-full object-cover" alt=""/>
                                         </div>
                                     </div>
                                 </div>
@@ -62,7 +65,7 @@ export default function ProductDetail(){
                                     <li>រយៈពេលដឹកជញ្ជូនសរុប៖ ការដឹកជញ្ជូនចាប់ពីរម៉ោង 9:30AM-12:00PM ពេលថ្ងៃ 2:00PM-5:30PM ចំពោះការយឺតយ៉ាវក្នុងការដឹកជញ្ជូន សូមទំនាក់ទំនងសេវាកម្មអតិថិជន៖ 010 99 73 40</li>
                                 </ul>
                                 <br/>
-                                <img clas="w-full" src="http://anachakshopping.com/anachak/pos/2020-11-14-11-44-45-Sports_Big_Set-03.png"/>
+                                <Image src={PRODUCT_IMAGES["pro-23"]} className="w-full h-full object-cover" alt=""/>
                             </div>
                         </div>
                     </div>

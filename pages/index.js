@@ -80,7 +80,7 @@ export default function Home() {
                     </span>
                   </div>
                   <div className="p-2 overflow-hidden">
-                    <Image src={PRODUCT_IMAGES['pro-14']}/>
+                    <Image src={PRODUCT_IMAGES['pro-14']} alt=""/>
                   </div>
                   <div className="py-2 font-sans text-center">
                     <div className="px-3">
@@ -116,7 +116,7 @@ export default function Home() {
                     </span>
                   </div>
                   <div className="p-2 overflow-hidden">
-                  <Image src={PRODUCT_IMAGES['pro-2']}/>
+                  <Image src={PRODUCT_IMAGES['pro-2']} alt=""/>
                   </div>
                   <div className="py-2 font-sans text-center">
                     <div className="px-3">
@@ -152,7 +152,7 @@ export default function Home() {
                     </span>
                   </div>
                   <div className="p-2 overflow-hidden">
-                  <Image src={PRODUCT_IMAGES['pro-3']}/>
+                  <Image src={PRODUCT_IMAGES['pro-3']} alt=""/>
                   </div>
                   <div className="py-2 font-sans text-center">
                     <div className="px-3">
@@ -188,7 +188,7 @@ export default function Home() {
                     </span>
                   </div>
                   <div className="p-2 overflow-hidden">
-                  <Image src={PRODUCT_IMAGES['pro-4']}/>
+                  <Image src={PRODUCT_IMAGES['pro-4']} alt=""/>
                   </div>
                   <div className="py-2 font-sans text-center">
                     <div className="px-3">
@@ -224,7 +224,7 @@ export default function Home() {
                     </span>
                   </div>
                   <div className="p-2 overflow-hidden">
-                  <Image src={PRODUCT_IMAGES['pro-5']}/>
+                  <Image src={PRODUCT_IMAGES['pro-5']} alt=""/>
                   </div>
                   <div className="py-2 font-sans text-center">
                     <div className="px-3">
@@ -260,7 +260,7 @@ export default function Home() {
                     </span>
                   </div>
                   <div className="p-2 overflow-hidden">
-                  <Image src={PRODUCT_IMAGES['pro-6']}/>
+                  <Image src={PRODUCT_IMAGES['pro-6']} alt=""/>
                   </div>
                   <div className="py-2 font-sans text-center">
                     <div className="px-3">
@@ -296,7 +296,7 @@ export default function Home() {
                     </span>
                   </div>
                   <div className="p-2 overflow-hidden">
-                  <Image src={PRODUCT_IMAGES['pro-7']}/>
+                  <Image src={PRODUCT_IMAGES['pro-7']} alt=""/>
                   </div>
                   <div className="py-2 font-sans text-center">
                     <div className="px-3">
@@ -332,7 +332,7 @@ export default function Home() {
                     </span>
                   </div>
                   <div className="p-2 overflow-hidden">
-                  <Image src={PRODUCT_IMAGES['pro-8']}/>
+                  <Image src={PRODUCT_IMAGES['pro-8']} alt=""/>
                   </div>
                   <div className="py-2 font-sans text-center">
                     <div className="px-3">
@@ -368,7 +368,7 @@ export default function Home() {
                     </span>
                   </div>
                   <div className="p-2 overflow-hidden">
-                  <Image src={PRODUCT_IMAGES['pro-9']}/>
+                  <Image src={PRODUCT_IMAGES['pro-9']} alt=""/>
                   </div>
                   <div className="py-2 font-sans text-center">
                     <div className="px-3">
@@ -404,7 +404,7 @@ export default function Home() {
                     </span>
                   </div>
                   <div className="p-2 overflow-hidden">
-                  <Image src={PRODUCT_IMAGES['pro-10']}/>
+                  <Image src={PRODUCT_IMAGES['pro-10']} alt=""/>
                   </div>
                   <div className="py-2 font-sans text-center">
                     <div className="px-3">

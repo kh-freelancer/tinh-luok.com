@@ -1,6 +1,8 @@
+import Image from 'next/image';
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import Slider from 'react-slick'
+import SLIDER_IMAGES from '../pages/slider_image';
 
 export default function TopSlider(){
     var settings = {
@@ -18,16 +20,16 @@ export default function TopSlider(){
             <div className="w-full bg-white border-b">
                 <Slider {...settings}>
                   <div className="max-h-80 overflow-hidden">
-                    <img className="w-full object-contain" src="images/sliders/2020-11-30-15-15-30-wb_banner-13.png"/>
+                    <Image src={SLIDER_IMAGES['slider-1']} className="w-full object-contain" alt=""/>
                   </div>
                   <div className="max-h-80 overflow-hidden">
-                    <img className="w-full object-contain" src="images/sliders/2020-11-30-15-15-41-web_ank_e_cover-02.png"/>
+                  <Image src={SLIDER_IMAGES['slider-2']} className="w-full object-contain" alt=""/>
                   </div>
                   <div className="max-h-80 overflow-hidden">
-                    <img className="w-full object-contain" src="images/sliders/2020-11-30-15-16-28-wb_banner-11.png"/>
+                  <Image src={SLIDER_IMAGES['slider-3']} className="w-full object-contain" alt=""/>
                   </div>
                   <div className="max-h-80 overflow-hidden">
-                    <img className="w-full object-contain" src="images/sliders/2020-12-08-19-58-09-ank_e_cover-08.png"/>
+                  <Image src={SLIDER_IMAGES['slider-4']} className="w-full object-contain" alt=""/>
                   </div>
                 </Slider>
             </div>
