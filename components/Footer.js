@@ -1,3 +1,6 @@
+import Image from "next/image"
+import FOOTER_IMAGE from "../pages/footer_image"
+
 export default function Footer() {
     return (
         <div>

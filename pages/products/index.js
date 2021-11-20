@@ -300,7 +300,7 @@ export default function Product(){
                             </div>
                             <div className="bg-white p-3 shadow-md hover:shadow-lg cursor-pointer">
                                 <div className="w-full text-center">
-                                <Image src={ALIBABA_IMAGES["15-web"]} className="w-40 h-40 object-container m-auto" alt=""/>
+                                    <Image src={ALIBABA_IMAGES["15-web"]} className="w-40 h-40 object-container m-auto" alt=""/>
                                 </div>
                                 <div className="h-10 overflow-hidden">
                                     <p className="inline-block line-clamp-2 overflow-hidden">workwell comfortable home fabric medical swivel chair office furniture gas spring roating office chair</p>

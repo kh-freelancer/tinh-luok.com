@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 import PRODUCT_IMAGES from './product_images'
+import FOOTER_IMAGE from './footer_image'
 import ImageAds from '../public/images/advertisings/its_banner-02.png'
 import TopSlider from '../components/TopSlider'
 import LSlider from '../components/LeftSlider'
@@ -512,7 +513,9 @@ export default function Home() {
             <div className="md:ml-auto md:mr-auto max-w-screen-xl mx-auto">
                 <div className="grid grid-cols-2 md:grid-cols-4">
                   <div className="py-5 border-l">
-                  <img className="w-20 mx-auto" src="images/brand/value_icon.png"/>
+                    <div className="w-20 mx-auto">
+                      <Image className="object-fill" src={FOOTER_IMAGE['value_icon']}  alt=""/>
+                    </div>
                     <div className="mx-auto text-center leading-10">
                       <h5 className="font-bold text-center">តម្លៃដ៏អស្ចារ្យ</h5>
                       <p className="px-5 text-base leading-6">
@@ -521,7 +524,9 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="py-5 border-l">
-                  <img className="w-32 mx-auto" src="images/brand/anachak_delivery_icon.png"/>
+                    <div className="w-20 mx-auto">
+                      <Image className="object-fill" src={FOOTER_IMAGE['anachak_delivery_icon']}  alt=""/>
+                    </div>
                     <div className="mx-auto text-center leading-10">
                       <h5 className="font-bold text-center">ការដឹកជញ្ជូន</h5>
                       <p className="px-5 text-base leading-6">
@@ -530,7 +535,9 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="py-5 border-l">
-                  <img className="w-20 mx-auto" src="images/brand/safe_payment.png"/>
+                    <div className="w-20 mx-auto">
+                      <Image className="object-fill" src={FOOTER_IMAGE['safe_payment']}  alt=""/>
+                    </div>
                     <div className="mx-auto text-center leading-10">
                       <h5 className="font-bold text-center">ការទូទាត់ដោយសុវត្ថិភាព</h5>
                       <p className="px-5 text-base leading-6">
@@ -539,7 +546,9 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="py-5 border-l border-r">
-                    <img className="w-20 mx-auto" src="images/brand/icon_help_center.png"/>
+                    <div className="w-20 mx-auto">
+                      <Image className="object-fill" src={FOOTER_IMAGE['icon_help_center']}  alt=""/>
+                    </div>
                     <div className="mx-auto leading-10">
                       <h5 className="font-bold font-sans text-center">24/7 Help Center</h5>
                       <p className="px-5 text-base leading-6">
