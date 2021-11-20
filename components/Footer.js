@@ -32,7 +32,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="bg-gray-100 border-t text-center py-2">
-                    <span class="text-sm text-gray-500">© Tinh-Luok Platform 2021. All rights reserved.</span>
+                    <span className="text-sm text-gray-500">© Tinh-Luok Platform 2021. All rights reserved.</span>
                 </div>
             </footer>
         </div>
