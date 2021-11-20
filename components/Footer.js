@@ -19,13 +19,13 @@ export default function Footer() {
                             <h5 className="font-bold">ប​ណ្តា​ញ​សង្គម</h5>
                             <ul className="flex items-center">
                                 <li>
-                                    <img className="bg-blue-500 cursor-pointer" src="http://itcenter.technology/assets_website/images/facebook.png"/>
+                                    <Image className="bg-blue-500 cursor-pointer" src={FOOTER_IMAGE.facebook} alt=""/>
                                 </li>
                                 <li>
-                                    <img className="bg-green-500 cursor-pointer" src="http://itcenter.technology/assets_website/images/linkin.png"/>
+                                <Image className="bg-blue-500 cursor-pointer" src={FOOTER_IMAGE.linkedin} alt=""/>
                                 </li>
                                 <li>
-                                    <img className="bg-red-400 cursor-pointer" src="http://itcenter.technology/assets_website/images/youtube.png"/>
+                                <Image className="bg-blue-500 cursor-pointer" src={FOOTER_IMAGE.youtube} alt=""/>
                                 </li>
                             </ul>
                         </div>

@@ -67,7 +67,7 @@ export default function Home() {
               </div>
             </div>
             <div className="mx-4 md:mx-0 mt-5 mb-5 object-cover">
-              <Image className="w-full" src={ImageAds} width="1500" height="180"/>
+              <Image className="w-full" src={ImageAds} width="1500" height="180" alt=""/>
             </div>
             
             <div className="mx-4 md:mx-0 p-2 mb-3 bg-white border">
