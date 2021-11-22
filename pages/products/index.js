@@ -1,5 +1,5 @@
 import Image from "next/image"
-import ALIBABA_IMAGES from "../alibaba_images"
+import ALIBABA_IMAGES from '../../src/alibaba_images'
 
 export default function Product(){
     return (

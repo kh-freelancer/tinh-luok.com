@@ -1,5 +1,5 @@
 import Image from "next/image"
-import PRODUCT_IMAGES from "../product_images"
+import PRODUCT_IMAGES from "../../src/product_images"
 
 export default function ProductDetail(){
     return (

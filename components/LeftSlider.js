@@ -2,7 +2,7 @@ import Image from 'next/image'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import LSlider from 'react-slick'
-import PRODUCT_IMAGES from '../pages/product_images'
+import PRODUCT_IMAGES from '../src/product_images'
 
 export default function LeftSlider(){
     var settings = {

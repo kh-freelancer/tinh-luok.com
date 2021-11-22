@@ -2,7 +2,7 @@ import Image from 'next/image';
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import Slider from 'react-slick'
-import SLIDER_IMAGES from '../pages/slider_image';
+import SLIDER_IMAGES from '../src/slider_image';
 
 export default function TopSlider(){
     var settings = {

@@ -1,5 +1,5 @@
 import Image from "next/image"
-import FOOTER_IMAGE from "../pages/footer_image"
+import FOOTER_IMAGE from "../src/footer_image"
 
 export default function Footer() {
     return (
