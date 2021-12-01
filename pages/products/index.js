@@ -1,9 +1,15 @@
+import Head from 'next/head'
+import Link from 'next/link'
 import Image from "next/image"
 import ALIBABA_IMAGES from '../../src/alibaba_images'
 
 export default function Product(){
     return (
         <>
+            <Head>
+                <title>Product</title>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            </Head>
             <div className="mt-3 container max-w-screen-xl m-auto">
                 <div className="flex gap-4 mb-4">
                     <div className="w-1/5 hidden md:block">
@@ -128,16 +134,20 @@ export default function Product(){
                     <div className="w-4/5">
                         <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
                             <div className="bg-white p-3 shadow-md hover:shadow-lg cursor-pointer">
-                                <div className="w-full text-center">
-                                    <Image src={ALIBABA_IMAGES["1-web"]} className="w-40 h-40 object-container m-auto" alt=""/>
-                                </div>
-                                <div className="h-10 overflow-hidden">
-                                    <p className="inline-block line-clamp-2 overflow-hidden">workwell comfortable home fabric medical swivel chair office furniture gas spring roating office chair</p>
-                                </div>
-                                <div className="mt-4 text-xl font-bold">$6.99 - $14.99</div>
-                                <small className="text-gray-600">
-                                    10.0 Pieces
-                                </small>
+                                <Link href="/products/detail" passHref>
+                                    <div>
+                                        <div className="w-full text-center">
+                                            <Image src={ALIBABA_IMAGES["1-web"]} className="w-40 h-40 object-container m-auto" alt=""/>
+                                        </div>
+                                        <div className="h-10 overflow-hidden">
+                                            <p className="inline-block line-clamp-2 overflow-hidden">Click here to page details</p>
+                                        </div>
+                                        <div className="mt-4 text-xl font-bold">$90.00</div>
+                                        <small className="text-gray-600">
+                                            10.0 Pieces
+                                        </small>
+                                    </div>
+                                </Link>
                             </div>
                             <div className="bg-white p-3 shadow-md hover:shadow-lg  cursor-pointer">
                                 <div className="w-full text-center">

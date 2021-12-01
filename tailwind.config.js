@@ -5,7 +5,9 @@ module.exports = {
     backgroundColor:{
       'primary' : '#ff6a00',
       'secondaray' : '#e35300',
-      'white'   : '#ffffff'
+      'white'   : '#ffffff',
+      'black'  : '#000000',
+      'pink'  : '#fe4164'
     },
     extend: {},
   },
