@@ -81,7 +81,7 @@ export default function Home() {
                       <label>ថ្មី</label>
                     </span>
                   </div>
-                  <div className="p-2 overflow-hidden">
+                  <div className="img-hover-zoom p-2 overflow-hidden">
                     <Image src={PRODUCT_IMAGES['pro-14']} alt=""/>
                   </div>
                   <div className="py-2 font-sans text-center">
@@ -95,7 +95,7 @@ export default function Home() {
                     <div className="px-1  items-center mt-3 border-t border-gray-200 pt-2">
                       <div className="px-3 flex justify-between">
                         <div className="flex items-center">
-                        <div className="rounded-full w-6 h-6 items-center overflow-hidden">
+                          <div className="rounded-full w-6 h-6 items-center overflow-hidden">
                             <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
                           </div>
                           <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
@@ -117,7 +117,7 @@ export default function Home() {
                       <label>ថ្មី</label>
                     </span>
                   </div>
-                  <div className="p-2 overflow-hidden">
+                  <div className="img-hover-zoom p-2 overflow-hidden">
                   <Image src={PRODUCT_IMAGES['pro-2']} alt=""/>
                   </div>
                   <div className="py-2 font-sans text-center">
@@ -153,7 +153,7 @@ export default function Home() {
                       <label>Second Hand</label>
                     </span>
                   </div>
-                  <div className="p-2 overflow-hidden">
+                  <div className="img-hover-zoom p-2 overflow-hidden">
                   <Image src={PRODUCT_IMAGES['pro-3']} alt=""/>
                   </div>
                   <div className="py-2 font-sans text-center">
@@ -189,7 +189,7 @@ export default function Home() {
                       <label>ថ្មី</label>
                     </span>
                   </div>
-                  <div className="p-2 overflow-hidden">
+                  <div className="img-hover-zoom p-2 overflow-hidden">
                   <Image src={PRODUCT_IMAGES['pro-4']} alt=""/>
                   </div>
                   <div className="py-2 font-sans text-center">
@@ -225,7 +225,7 @@ export default function Home() {
                       <label>ថ្មី</label>
                     </span>
                   </div>
-                  <div className="p-2 overflow-hidden">
+                  <div className="img-hover-zoom p-2 overflow-hidden">
                   <Image src={PRODUCT_IMAGES['pro-5']} alt=""/>
                   </div>
                   <div className="py-2 font-sans text-center">
@@ -261,7 +261,7 @@ export default function Home() {
                       <label>ថ្មី</label>
                     </span>
                   </div>
-                  <div className="p-2 overflow-hidden">
+                  <div className="img-hover-zoom p-2 overflow-hidden">
                   <Image src={PRODUCT_IMAGES['pro-6']} alt=""/>
                   </div>
                   <div className="py-2 font-sans text-center">
@@ -297,7 +297,7 @@ export default function Home() {
                       <label>ថ្មី</label>
                     </span>
                   </div>
-                  <div className="p-2 overflow-hidden">
+                  <div className="img-hover-zoom p-2 overflow-hidden">
                   <Image src={PRODUCT_IMAGES['pro-7']} alt=""/>
                   </div>
                   <div className="py-2 font-sans text-center">
@@ -333,7 +333,7 @@ export default function Home() {
                       <label>ថ្មី</label>
                     </span>
                   </div>
-                  <div className="p-2 overflow-hidden">
+                  <div className="img-hover-zoom p-2 overflow-hidden">
                   <Image src={PRODUCT_IMAGES['pro-8']} alt=""/>
                   </div>
                   <div className="py-2 font-sans text-center">
@@ -369,7 +369,7 @@ export default function Home() {
                       <label>ថ្មី</label>
                     </span>
                   </div>
-                  <div className="p-2 overflow-hidden">
+                  <div className="img-hover-zoom p-2 overflow-hidden">
                   <Image src={PRODUCT_IMAGES['pro-9']} alt=""/>
                   </div>
                   <div className="py-2 font-sans text-center">
@@ -405,7 +405,7 @@ export default function Home() {
                       <label>ថ្មី</label>
                     </span>
                   </div>
-                  <div className="p-2 overflow-hidden">
+                  <div className="img-hover-zoom p-2 overflow-hidden">
                   <Image src={PRODUCT_IMAGES['pro-10']} alt=""/>
                   </div>
                   <div className="py-2 font-sans text-center">
@@ -441,7 +441,7 @@ export default function Home() {
                       <label>ថ្មី</label>
                     </span>
                   </div>
-                  <div className="p-2 overflow-hidden">
+                  <div className="img-hover-zoom p-2 overflow-hidden">
                     	<Image src={PRODUCT_IMAGES['pro-11']} alt=""/>
                   </div>
                   <div className="py-2 font-sans text-center">
@@ -477,7 +477,7 @@ export default function Home() {
                       <label>ថ្មី</label>
                     </span>
                   </div>
-                  <div className="p-2 overflow-hidden">
+                  <div className="img-hover-zoom p-2 overflow-hidden">
                   <Image src={PRODUCT_IMAGES['pro-12']} alt=""/>
                   </div>
                   <div className="py-2 font-sans text-center">
