@@ -33,7 +33,7 @@ export default function ProductDetail(){
                 <p className="text-lg">
                     
                         <strong className="text-red-600">
-                        <Link href="/products">ផលិតផល​ > </Link> 
+                        <Link href="/products">ផលិតផល​ &gt; </Link> 
                         </strong> 
                     <small className="text-base">ឧបករណ៍ឈុតហាត់ប្រាណពិសេសមាន ៦ មុខ</small>
                 </p>
