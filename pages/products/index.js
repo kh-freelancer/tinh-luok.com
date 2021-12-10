@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from "next/image"
 import ALIBABA_IMAGES from '../../src/alibaba_images'
+import USER_IMAGES from '../../src/user_image'
 
 export default function Product(){
     return (
@@ -131,196 +132,584 @@ export default function Product(){
                             </ul>
                         </div>
                     </div>
-                    <div className="w-4/5">
-                        <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
-                            <div className="bg-white p-3 shadow-md hover:shadow-lg cursor-pointer">
-                                <Link href="/products/detail" passHref>
-                                    <div>
-                                        <div className="w-full text-center">
-                                            <Image src={ALIBABA_IMAGES["1-web"]} className="w-40 h-40 object-container m-auto" alt=""/>
+                    <div className="w-4/5 pt-3">
+                        <div className="mx-4 md:mx-0 grid grid-cols-2 md:grid-cols-4 gap-4">
+                            <div className="web-card mb-1 pb-1 relative cursor-pointer rounded-md shadow-sm bg-white hover:shadow-xl">
+                                <div className="saleOff">
+                                <span className="font-mono inline-block">
+                                    <label>ថ្មី</label>
+                                </span>
+                                </div>
+                                <div className="img-hover-zoom p-2 overflow-hidden">
+                                <Image src={ALIBABA_IMAGES["1-web"]} alt=""/>
+                                </div>
+                                <div className="py-2 font-sans text-center">
+                                <div className="px-3">
+                                    <span className="web-title text-sm">ស្រោមដៃលេងហ្គេម (Gaming Gloves.</span>
+                                    <span className="flex justify-between items-center my-1 mx-3">
+                                    <span className="text-red-500 font-medium text-sm">$2.50</span>
+                                    <del className="text-sm ml-2">$5.00</del>
+                                    </span>
+                                </div>
+                                <div className="px-1  items-center mt-3 border-t border-gray-200 pt-2">
+                                    <div className="px-3 flex justify-between">
+                                    <div className="flex items-center">
+                                        <div className="rounded-full w-6 h-6 items-center overflow-hidden">
+                                        <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
                                         </div>
-                                        <div className="h-10 overflow-hidden">
-                                            <p className="inline-block line-clamp-2 overflow-hidden">Click here to page details</p>
-                                        </div>
-                                        <div className="mt-4 text-xl font-bold">$90.00</div>
-                                        <small className="text-gray-600">
-                                            10.0 Pieces
-                                        </small>
+                                        <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
                                     </div>
-                                </Link>
+                                    <div className="flex text-gray-500 text-xs items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="item-center h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                        </svg>
+                                        <label className="ml-1">9.5K</label>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
                             </div>
-                            <div className="bg-white p-3 shadow-md hover:shadow-lg  cursor-pointer">
-                                <div className="w-full text-center">
-                                <Image src={ALIBABA_IMAGES["2-web"]} className="w-40 h-40 object-container m-auto" alt=""/>
+                            <div className="web-card mb-1 pb-1 relative cursor-pointer rounded-md shadow-sm bg-white hover:shadow-xl">
+                                <div className="saleOff">
+                                <span className="font-mono inline-block">
+                                    <label>ថ្មី</label>
+                                </span>
                                 </div>
-                                <div className="h-10 overflow-hidden">
-                                    <p className="inline-block line-clamp-2 overflow-hidden">workwell comfortable home fabric medical swivel chair office furniture gas spring roating office chair</p>
+                                <div className="img-hover-zoom p-2 overflow-hidden">
+                                <Image src={ALIBABA_IMAGES["2-web"]} alt=""/>
                                 </div>
-                                <div className="mt-4 text-xl font-bold">$6.99 - $14.99</div>
-                                <small className="text-gray-600">
-                                    10.0 Pieces
-                                </small>
+                                <div className="py-2 font-sans text-center">
+                                <div className="px-3">
+                                    <span className="web-title text-sm">ស្រោមដៃលេងហ្គេម (Gaming Gloves.</span>
+                                    <span className="flex justify-between items-center my-1 mx-3">
+                                    <span className="text-red-500 font-medium text-sm">$2.50</span>
+                                    <del className="text-sm ml-2">$5.00</del>
+                                    </span>
+                                </div>
+                                <div className="px-1  items-center mt-3 border-t border-gray-200 pt-2">
+                                    <div className="px-3 flex justify-between">
+                                    <div className="flex items-center">
+                                        <div className="rounded-full w-6 h-6 items-center overflow-hidden">
+                                        <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
+                                        </div>
+                                        <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
+                                    </div>
+                                    <div className="flex text-gray-500 text-xs items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="item-center h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                        </svg>
+                                        <label className="ml-1">9.5K</label>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
                             </div>
-                            <div className="bg-white p-3 shadow-md hover:shadow-lg cursor-pointer">
-                                <div className="w-full text-center">
-                                <Image src={ALIBABA_IMAGES["3-web"]} className="w-40 h-40 object-container m-auto" alt=""/>
+                            <div className="web-card mb-1 pb-1 relative cursor-pointer rounded-md shadow-sm bg-white hover:shadow-xl">
+                                <div className="saleOff">
+                                <span className="font-mono inline-block">
+                                    <label>ថ្មី</label>
+                                </span>
                                 </div>
-                                <div className="h-10 overflow-hidden">
-                                    <p className="inline-block line-clamp-2 overflow-hidden">workwell comfortable home fabric medical swivel chair office furniture gas spring roating office chair</p>
+                                <div className="img-hover-zoom p-2 overflow-hidden">
+                                <Image src={ALIBABA_IMAGES["3-web"]} alt=""/>
                                 </div>
-                                <div className="mt-4 text-xl font-bold">$6.99 - $14.99</div>
-                                <small className="text-gray-600">
-                                    10.0 Pieces
-                                </small>
+                                <div className="py-2 font-sans text-center">
+                                <div className="px-3">
+                                    <span className="web-title text-sm">ស្រោមដៃលេងហ្គេម (Gaming Gloves.</span>
+                                    <span className="flex justify-between items-center my-1 mx-3">
+                                    <span className="text-red-500 font-medium text-sm">$2.50</span>
+                                    <del className="text-sm ml-2">$5.00</del>
+                                    </span>
+                                </div>
+                                <div className="px-1  items-center mt-3 border-t border-gray-200 pt-2">
+                                    <div className="px-3 flex justify-between">
+                                    <div className="flex items-center">
+                                        <div className="rounded-full w-6 h-6 items-center overflow-hidden">
+                                        <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
+                                        </div>
+                                        <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
+                                    </div>
+                                    <div className="flex text-gray-500 text-xs items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="item-center h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                        </svg>
+                                        <label className="ml-1">9.5K</label>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
                             </div>
-                            <div className="bg-white p-3 shadow-md hover:shadow-lg cursor-pointer">
-                                <div className="w-full text-center">
-                                <Image src={ALIBABA_IMAGES["4-web"]} className="w-40 h-40 object-container m-auto" alt=""/>
+                            <div className="web-card mb-1 pb-1 relative cursor-pointer rounded-md shadow-sm bg-white hover:shadow-xl">
+                                <div className="saleOff">
+                                <span className="font-mono inline-block">
+                                    <label>ថ្មី</label>
+                                </span>
                                 </div>
-                                <div className="h-10 overflow-hidden">
-                                    <p className="inline-block line-clamp-2 overflow-hidden">workwell comfortable home fabric medical swivel chair office furniture gas spring roating office chair</p>
+                                <div className="img-hover-zoom p-2 overflow-hidden">
+                                <Image src={ALIBABA_IMAGES["4-web"]} alt=""/>
                                 </div>
-                                <div className="mt-4 text-xl font-bold">$6.99 - $14.99</div>
-                                <small className="text-gray-600">
-                                    10.0 Pieces
-                                </small>
+                                <div className="py-2 font-sans text-center">
+                                <div className="px-3">
+                                    <span className="web-title text-sm">ស្រោមដៃលេងហ្គេម (Gaming Gloves.</span>
+                                    <span className="flex justify-between items-center my-1 mx-3">
+                                    <span className="text-red-500 font-medium text-sm">$2.50</span>
+                                    <del className="text-sm ml-2">$5.00</del>
+                                    </span>
+                                </div>
+                                <div className="px-1  items-center mt-3 border-t border-gray-200 pt-2">
+                                    <div className="px-3 flex justify-between">
+                                    <div className="flex items-center">
+                                        <div className="rounded-full w-6 h-6 items-center overflow-hidden">
+                                        <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
+                                        </div>
+                                        <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
+                                    </div>
+                                    <div className="flex text-gray-500 text-xs items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="item-center h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                        </svg>
+                                        <label className="ml-1">9.5K</label>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
                             </div>
-
-                            <div className="bg-white p-3 shadow-md hover:shadow-lg cursor-pointer">
-                                <div className="w-full text-center">
-                                    <Image src={ALIBABA_IMAGES["5-web"]} className="w-40 h-40 object-container m-auto" alt=""/>
+                            <div className="web-card mb-1 pb-1 relative cursor-pointer rounded-md shadow-sm bg-white hover:shadow-xl">
+                                <div className="saleOff">
+                                <span className="font-mono inline-block">
+                                    <label>ថ្មី</label>
+                                </span>
                                 </div>
-                                <div className="h-10 overflow-hidden">
-                                    <p className="inline-block line-clamp-2 overflow-hidden">workwell comfortable home fabric medical swivel chair office furniture gas spring roating office chair</p>
+                                <div className="img-hover-zoom p-2 overflow-hidden">
+                                <Image src={ALIBABA_IMAGES["5-web"]} alt=""/>
                                 </div>
-                                <div className="mt-4 text-xl font-bold">$6.99 - $14.99</div>
-                                <small className="text-gray-600">
-                                    10.0 Pieces
-                                </small>
+                                <div className="py-2 font-sans text-center">
+                                <div className="px-3">
+                                    <span className="web-title text-sm">ស្រោមដៃលេងហ្គេម (Gaming Gloves.</span>
+                                    <span className="flex justify-between items-center my-1 mx-3">
+                                    <span className="text-red-500 font-medium text-sm">$2.50</span>
+                                    <del className="text-sm ml-2">$5.00</del>
+                                    </span>
+                                </div>
+                                <div className="px-1  items-center mt-3 border-t border-gray-200 pt-2">
+                                    <div className="px-3 flex justify-between">
+                                    <div className="flex items-center">
+                                        <div className="rounded-full w-6 h-6 items-center overflow-hidden">
+                                        <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
+                                        </div>
+                                        <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
+                                    </div>
+                                    <div className="flex text-gray-500 text-xs items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="item-center h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                        </svg>
+                                        <label className="ml-1">9.5K</label>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
                             </div>
-                            <div className="bg-white p-3 shadow-md hover:shadow-lg cursor-pointer">
-                                <div className="w-full text-center">
-                                    <Image src={ALIBABA_IMAGES["6-web"]} className="w-40 h-40 object-container m-auto" alt=""/>
+                            <div className="web-card mb-1 pb-1 relative cursor-pointer rounded-md shadow-sm bg-white hover:shadow-xl">
+                                <div className="saleOff">
+                                <span className="font-mono inline-block">
+                                    <label>ថ្មី</label>
+                                </span>
                                 </div>
-                                <div className="h-10 overflow-hidden">
-                                    <p className="inline-block line-clamp-2 overflow-hidden">workwell comfortable home fabric medical swivel chair office furniture gas spring roating office chair</p>
+                                <div className="img-hover-zoom p-2 overflow-hidden">
+                                <Image src={ALIBABA_IMAGES["6-web"]} alt=""/>
                                 </div>
-                                <div className="mt-4 text-xl font-bold">$6.99 - $14.99</div>
-                                <small className="text-gray-600">
-                                    10.0 Pieces
-                                </small>
+                                <div className="py-2 font-sans text-center">
+                                <div className="px-3">
+                                    <span className="web-title text-sm">ស្រោមដៃលេងហ្គេម (Gaming Gloves.</span>
+                                    <span className="flex justify-between items-center my-1 mx-3">
+                                    <span className="text-red-500 font-medium text-sm">$2.50</span>
+                                    <del className="text-sm ml-2">$5.00</del>
+                                    </span>
+                                </div>
+                                <div className="px-1  items-center mt-3 border-t border-gray-200 pt-2">
+                                    <div className="px-3 flex justify-between">
+                                    <div className="flex items-center">
+                                        <div className="rounded-full w-6 h-6 items-center overflow-hidden">
+                                        <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
+                                        </div>
+                                        <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
+                                    </div>
+                                    <div className="flex text-gray-500 text-xs items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="item-center h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                        </svg>
+                                        <label className="ml-1">9.5K</label>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
                             </div>
-                            <div className="bg-white p-3 shadow-md hover:shadow-lg cursor-pointer">
-                                <div className="w-full text-center">
-                                <Image src={ALIBABA_IMAGES["7-web"]} className="w-40 h-40 object-container m-auto" alt=""/>
+                            <div className="web-card mb-1 pb-1 relative cursor-pointer rounded-md shadow-sm bg-white hover:shadow-xl">
+                                <div className="saleOff">
+                                <span className="font-mono inline-block">
+                                    <label>ថ្មី</label>
+                                </span>
                                 </div>
-                                <div className="h-10 overflow-hidden">
-                                    <p className="inline-block line-clamp-2 overflow-hidden">workwell comfortable home fabric medical swivel chair office furniture gas spring roating office chair</p>
+                                <div className="img-hover-zoom p-2 overflow-hidden">
+                                <Image src={ALIBABA_IMAGES["7-web"]} alt=""/>
                                 </div>
-                                <div className="mt-4 text-xl font-bold">$6.99 - $14.99</div>
-                                <small className="text-gray-600">
-                                    10.0 Pieces
-                                </small>
+                                <div className="py-2 font-sans text-center">
+                                <div className="px-3">
+                                    <span className="web-title text-sm">ស្រោមដៃលេងហ្គេម (Gaming Gloves.</span>
+                                    <span className="flex justify-between items-center my-1 mx-3">
+                                    <span className="text-red-500 font-medium text-sm">$2.50</span>
+                                    <del className="text-sm ml-2">$5.00</del>
+                                    </span>
+                                </div>
+                                <div className="px-1  items-center mt-3 border-t border-gray-200 pt-2">
+                                    <div className="px-3 flex justify-between">
+                                    <div className="flex items-center">
+                                        <div className="rounded-full w-6 h-6 items-center overflow-hidden">
+                                        <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
+                                        </div>
+                                        <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
+                                    </div>
+                                    <div className="flex text-gray-500 text-xs items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="item-center h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                        </svg>
+                                        <label className="ml-1">9.5K</label>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
                             </div>
-                            <div className="bg-white p-3 shadow-md hover:shadow-lg cursor-pointer">
-                                <div className="w-full text-center">
-                                <Image src={ALIBABA_IMAGES["8-web"]} className="w-40 h-40 object-container m-auto" alt=""/>
+                            <div className="web-card mb-1 pb-1 relative cursor-pointer rounded-md shadow-sm bg-white hover:shadow-xl">
+                                <div className="saleOff">
+                                <span className="font-mono inline-block">
+                                    <label>ថ្មី</label>
+                                </span>
                                 </div>
-                                <div className="h-10 overflow-hidden">
-                                    <p className="inline-block line-clamp-2 overflow-hidden">workwell comfortable home fabric medical swivel chair office furniture gas spring roating office chair</p>
+                                <div className="img-hover-zoom p-2 overflow-hidden">
+                                <Image src={ALIBABA_IMAGES["8-web"]} alt=""/>
                                 </div>
-                                <div className="mt-4 text-xl font-bold">$6.99 - $14.99</div>
-                                <small className="text-gray-600">
-                                    10.0 Pieces
-                                </small>
+                                <div className="py-2 font-sans text-center">
+                                <div className="px-3">
+                                    <span className="web-title text-sm">ស្រោមដៃលេងហ្គេម (Gaming Gloves.</span>
+                                    <span className="flex justify-between items-center my-1 mx-3">
+                                    <span className="text-red-500 font-medium text-sm">$2.50</span>
+                                    <del className="text-sm ml-2">$5.00</del>
+                                    </span>
+                                </div>
+                                <div className="px-1  items-center mt-3 border-t border-gray-200 pt-2">
+                                    <div className="px-3 flex justify-between">
+                                    <div className="flex items-center">
+                                        <div className="rounded-full w-6 h-6 items-center overflow-hidden">
+                                        <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
+                                        </div>
+                                        <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
+                                    </div>
+                                    <div className="flex text-gray-500 text-xs items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="item-center h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                        </svg>
+                                        <label className="ml-1">9.5K</label>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
                             </div>
-
-
-                            <div className="bg-white p-3 shadow-md hover:shadow-lg cursor-pointer">
-                                <div className="w-full text-center">
-                                <Image src={ALIBABA_IMAGES["9-web"]} className="w-40 h-40 object-container m-auto" alt=""/>
+                            <div className="web-card mb-1 pb-1 relative cursor-pointer rounded-md shadow-sm bg-white hover:shadow-xl">
+                                <div className="saleOff">
+                                <span className="font-mono inline-block">
+                                    <label>ថ្មី</label>
+                                </span>
                                 </div>
-                                <div className="h-10 overflow-hidden">
-                                    <p className="inline-block line-clamp-2 overflow-hidden">workwell comfortable home fabric medical swivel chair office furniture gas spring roating office chair</p>
+                                <div className="img-hover-zoom p-2 overflow-hidden">
+                                <Image src={ALIBABA_IMAGES["9-web"]} alt=""/>
                                 </div>
-                                <div className="mt-4 text-xl font-bold">$6.99 - $14.99</div>
-                                <small className="text-gray-600">
-                                    10.0 Pieces
-                                </small>
+                                <div className="py-2 font-sans text-center">
+                                <div className="px-3">
+                                    <span className="web-title text-sm">ស្រោមដៃលេងហ្គេម (Gaming Gloves.</span>
+                                    <span className="flex justify-between items-center my-1 mx-3">
+                                    <span className="text-red-500 font-medium text-sm">$2.50</span>
+                                    <del className="text-sm ml-2">$5.00</del>
+                                    </span>
+                                </div>
+                                <div className="px-1  items-center mt-3 border-t border-gray-200 pt-2">
+                                    <div className="px-3 flex justify-between">
+                                    <div className="flex items-center">
+                                        <div className="rounded-full w-6 h-6 items-center overflow-hidden">
+                                        <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
+                                        </div>
+                                        <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
+                                    </div>
+                                    <div className="flex text-gray-500 text-xs items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="item-center h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                        </svg>
+                                        <label className="ml-1">9.5K</label>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
                             </div>
-                            <div className="bg-white p-3 shadow-md hover:shadow-lg cursor-pointer">
-                                <div className="w-full text-center">
-                                <Image src={ALIBABA_IMAGES["10-web"]} className="w-40 h-40 object-container m-auto" alt=""/>
+                            <div className="web-card mb-1 pb-1 relative cursor-pointer rounded-md shadow-sm bg-white hover:shadow-xl">
+                                <div className="saleOff">
+                                <span className="font-mono inline-block">
+                                    <label>ថ្មី</label>
+                                </span>
                                 </div>
-                                <div className="h-10 overflow-hidden">
-                                    <p className="inline-block line-clamp-2 overflow-hidden">workwell comfortable home fabric medical swivel chair office furniture gas spring roating office chair</p>
+                                <div className="img-hover-zoom p-2 overflow-hidden">
+                                <Image src={ALIBABA_IMAGES["10-web"]} alt=""/>
                                 </div>
-                                <div className="mt-4 text-xl font-bold">$6.99 - $14.99</div>
-                                <small className="text-gray-600">
-                                    10.0 Pieces
-                                </small>
+                                <div className="py-2 font-sans text-center">
+                                <div className="px-3">
+                                    <span className="web-title text-sm">ស្រោមដៃលេងហ្គេម (Gaming Gloves.</span>
+                                    <span className="flex justify-between items-center my-1 mx-3">
+                                    <span className="text-red-500 font-medium text-sm">$2.50</span>
+                                    <del className="text-sm ml-2">$5.00</del>
+                                    </span>
+                                </div>
+                                <div className="px-1  items-center mt-3 border-t border-gray-200 pt-2">
+                                    <div className="px-3 flex justify-between">
+                                    <div className="flex items-center">
+                                        <div className="rounded-full w-6 h-6 items-center overflow-hidden">
+                                        <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
+                                        </div>
+                                        <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
+                                    </div>
+                                    <div className="flex text-gray-500 text-xs items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="item-center h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                        </svg>
+                                        <label className="ml-1">9.5K</label>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
                             </div>
-                            <div className="bg-white p-3 shadow-md hover:shadow-lg cursor-pointer">
-                                <div className="w-full text-center">
-                                <Image src={ALIBABA_IMAGES["11-web"]} className="w-40 h-40 object-container m-auto" alt=""/>
+                            <div className="web-card mb-1 pb-1 relative cursor-pointer rounded-md shadow-sm bg-white hover:shadow-xl">
+                                <div className="saleOff">
+                                <span className="font-mono inline-block">
+                                    <label>ថ្មី</label>
+                                </span>
                                 </div>
-                                <div className="h-10 overflow-hidden">
-                                    <p className="inline-block line-clamp-2 overflow-hidden">workwell comfortable home fabric medical swivel chair office furniture gas spring roating office chair</p>
+                                <div className="img-hover-zoom p-2 overflow-hidden">
+                                <Image src={ALIBABA_IMAGES["11-web"]} alt=""/>
                                 </div>
-                                <div className="mt-4 text-xl font-bold">$6.99 - $14.99</div>
-                                <small className="text-gray-600">
-                                    10.0 Pieces
-                                </small>
+                                <div className="py-2 font-sans text-center">
+                                <div className="px-3">
+                                    <span className="web-title text-sm">ស្រោមដៃលេងហ្គេម (Gaming Gloves.</span>
+                                    <span className="flex justify-between items-center my-1 mx-3">
+                                    <span className="text-red-500 font-medium text-sm">$2.50</span>
+                                    <del className="text-sm ml-2">$5.00</del>
+                                    </span>
+                                </div>
+                                <div className="px-1  items-center mt-3 border-t border-gray-200 pt-2">
+                                    <div className="px-3 flex justify-between">
+                                    <div className="flex items-center">
+                                        <div className="rounded-full w-6 h-6 items-center overflow-hidden">
+                                        <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
+                                        </div>
+                                        <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
+                                    </div>
+                                    <div className="flex text-gray-500 text-xs items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="item-center h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                        </svg>
+                                        <label className="ml-1">9.5K</label>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
                             </div>
-                            <div className="bg-white p-3 shadow-md hover:shadow-lg cursor-pointer">
-                                <div className="w-full text-center">
-                                <Image src={ALIBABA_IMAGES["12-web"]} className="w-40 h-40 object-container m-auto" alt=""/>
+                            <div className="web-card mb-1 pb-1 relative cursor-pointer rounded-md shadow-sm bg-white hover:shadow-xl">
+                                <div className="saleOff">
+                                <span className="font-mono inline-block">
+                                    <label>ថ្មី</label>
+                                </span>
                                 </div>
-                                <div className="h-10 overflow-hidden">
-                                    <p className="inline-block line-clamp-2 overflow-hidden">workwell comfortable home fabric medical swivel chair office furniture gas spring roating office chair</p>
+                                <div className="img-hover-zoom p-2 overflow-hidden">
+                                <Image src={ALIBABA_IMAGES["12-web"]} alt=""/>
                                 </div>
-                                <div className="mt-4 text-xl font-bold">$6.99 - $14.99</div>
-                                <small className="text-gray-600">
-                                    10.0 Pieces
-                                </small>
+                                <div className="py-2 font-sans text-center">
+                                <div className="px-3">
+                                    <span className="web-title text-sm">ស្រោមដៃលេងហ្គេម (Gaming Gloves.</span>
+                                    <span className="flex justify-between items-center my-1 mx-3">
+                                    <span className="text-red-500 font-medium text-sm">$2.50</span>
+                                    <del className="text-sm ml-2">$5.00</del>
+                                    </span>
+                                </div>
+                                <div className="px-1  items-center mt-3 border-t border-gray-200 pt-2">
+                                    <div className="px-3 flex justify-between">
+                                    <div className="flex items-center">
+                                        <div className="rounded-full w-6 h-6 items-center overflow-hidden">
+                                        <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
+                                        </div>
+                                        <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
+                                    </div>
+                                    <div className="flex text-gray-500 text-xs items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="item-center h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                        </svg>
+                                        <label className="ml-1">9.5K</label>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
                             </div>
-                            <div className="bg-white p-3 shadow-md hover:shadow-lg cursor-pointer">
-                                <div className="w-full text-center">
-                                <Image src={ALIBABA_IMAGES["13-web"]} className="w-40 h-40 object-container m-auto" alt=""/>
+                            <div className="web-card mb-1 pb-1 relative cursor-pointer rounded-md shadow-sm bg-white hover:shadow-xl">
+                                <div className="saleOff">
+                                <span className="font-mono inline-block">
+                                    <label>ថ្មី</label>
+                                </span>
                                 </div>
-                                <div className="h-10 overflow-hidden">
-                                    <p className="inline-block line-clamp-2 overflow-hidden">workwell comfortable home fabric medical swivel chair office furniture gas spring roating office chair</p>
+                                <div className="img-hover-zoom p-2 overflow-hidden">
+                                <Image src={ALIBABA_IMAGES["13-web"]} alt=""/>
                                 </div>
-                                <div className="mt-4 text-xl font-bold">$6.99 - $14.99</div>
-                                <small className="text-gray-600">
-                                    10.0 Pieces
-                                </small>
+                                <div className="py-2 font-sans text-center">
+                                <div className="px-3">
+                                    <span className="web-title text-sm">ស្រោមដៃលេងហ្គេម (Gaming Gloves.</span>
+                                    <span className="flex justify-between items-center my-1 mx-3">
+                                    <span className="text-red-500 font-medium text-sm">$2.50</span>
+                                    <del className="text-sm ml-2">$5.00</del>
+                                    </span>
+                                </div>
+                                <div className="px-1  items-center mt-3 border-t border-gray-200 pt-2">
+                                    <div className="px-3 flex justify-between">
+                                    <div className="flex items-center">
+                                        <div className="rounded-full w-6 h-6 items-center overflow-hidden">
+                                        <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
+                                        </div>
+                                        <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
+                                    </div>
+                                    <div className="flex text-gray-500 text-xs items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="item-center h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                        </svg>
+                                        <label className="ml-1">9.5K</label>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
                             </div>
-                            <div className="bg-white p-3 shadow-md hover:shadow-lg cursor-pointer">
-                                <div className="w-full text-center">
-                                <Image src={ALIBABA_IMAGES["14-web"]} className="w-40 h-40 object-container m-auto" alt=""/>
+                            <div className="web-card mb-1 pb-1 relative cursor-pointer rounded-md shadow-sm bg-white hover:shadow-xl">
+                                <div className="saleOff">
+                                <span className="font-mono inline-block">
+                                    <label>ថ្មី</label>
+                                </span>
                                 </div>
-                                <div className="h-10 overflow-hidden">
-                                    <p className="inline-block line-clamp-2 overflow-hidden">workwell comfortable home fabric medical swivel chair office furniture gas spring roating office chair</p>
+                                <div className="img-hover-zoom p-2 overflow-hidden">
+                                <Image src={ALIBABA_IMAGES["14-web"]} alt=""/>
                                 </div>
-                                <div className="mt-4 text-xl font-bold">$6.99 - $14.99</div>
-                                <small className="text-gray-600">
-                                    10.0 Pieces
-                                </small>
+                                <div className="py-2 font-sans text-center">
+                                <div className="px-3">
+                                    <span className="web-title text-sm">ស្រោមដៃលេងហ្គេម (Gaming Gloves.</span>
+                                    <span className="flex justify-between items-center my-1 mx-3">
+                                    <span className="text-red-500 font-medium text-sm">$2.50</span>
+                                    <del className="text-sm ml-2">$5.00</del>
+                                    </span>
+                                </div>
+                                <div className="px-1  items-center mt-3 border-t border-gray-200 pt-2">
+                                    <div className="px-3 flex justify-between">
+                                    <div className="flex items-center">
+                                        <div className="rounded-full w-6 h-6 items-center overflow-hidden">
+                                        <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
+                                        </div>
+                                        <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
+                                    </div>
+                                    <div className="flex text-gray-500 text-xs items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="item-center h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                        </svg>
+                                        <label className="ml-1">9.5K</label>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
                             </div>
-                            <div className="bg-white p-3 shadow-md hover:shadow-lg cursor-pointer">
-                                <div className="w-full text-center">
-                                    <Image src={ALIBABA_IMAGES["15-web"]} className="w-40 h-40 object-container m-auto" alt=""/>
+                            <div className="web-card mb-1 pb-1 relative cursor-pointer rounded-md shadow-sm bg-white hover:shadow-xl">
+                                <div className="saleOff">
+                                <span className="font-mono inline-block">
+                                    <label>ថ្មី</label>
+                                </span>
                                 </div>
-                                <div className="h-10 overflow-hidden">
-                                    <p className="inline-block line-clamp-2 overflow-hidden">workwell comfortable home fabric medical swivel chair office furniture gas spring roating office chair</p>
+                                <div className="img-hover-zoom p-2 overflow-hidden">
+                                <Image src={ALIBABA_IMAGES["15-web"]} alt=""/>
                                 </div>
-                                <div className="mt-4 text-xl font-bold">$6.99 - $14.99</div>
-                                <small className="text-gray-600">
-                                    10.0 Pieces
-                                </small>
+                                <div className="py-2 font-sans text-center">
+                                <div className="px-3">
+                                    <span className="web-title text-sm">ស្រោមដៃលេងហ្គេម (Gaming Gloves.</span>
+                                    <span className="flex justify-between items-center my-1 mx-3">
+                                    <span className="text-red-500 font-medium text-sm">$2.50</span>
+                                    <del className="text-sm ml-2">$5.00</del>
+                                    </span>
+                                </div>
+                                <div className="px-1  items-center mt-3 border-t border-gray-200 pt-2">
+                                    <div className="px-3 flex justify-between">
+                                    <div className="flex items-center">
+                                        <div className="rounded-full w-6 h-6 items-center overflow-hidden">
+                                        <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
+                                        </div>
+                                        <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
+                                    </div>
+                                    <div className="flex text-gray-500 text-xs items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="item-center h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                        </svg>
+                                        <label className="ml-1">9.5K</label>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
                             </div>
-
+                            <div className="web-card mb-1 pb-1 relative cursor-pointer rounded-md shadow-sm bg-white hover:shadow-xl">
+                                <div className="saleOff">
+                                <span className="font-mono inline-block">
+                                    <label>ថ្មី</label>
+                                </span>
+                                </div>
+                                <div className="img-hover-zoom p-2 overflow-hidden">
+                                <Image src={ALIBABA_IMAGES["2-web"]} alt=""/>
+                                </div>
+                                <div className="py-2 font-sans text-center">
+                                <div className="px-3">
+                                    <span className="web-title text-sm">ស្រោមដៃលេងហ្គេម (Gaming Gloves.</span>
+                                    <span className="flex justify-between items-center my-1 mx-3">
+                                    <span className="text-red-500 font-medium text-sm">$2.50</span>
+                                    <del className="text-sm ml-2">$5.00</del>
+                                    </span>
+                                </div>
+                                <div className="px-1  items-center mt-3 border-t border-gray-200 pt-2">
+                                    <div className="px-3 flex justify-between">
+                                    <div className="flex items-center">
+                                        <div className="rounded-full w-6 h-6 items-center overflow-hidden">
+                                        <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
+                                        </div>
+                                        <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
+                                    </div>
+                                    <div className="flex text-gray-500 text-xs items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="item-center h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                        </svg>
+                                        <label className="ml-1">9.5K</label>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

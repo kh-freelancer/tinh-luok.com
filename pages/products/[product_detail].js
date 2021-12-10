@@ -3,6 +3,23 @@ import Link from "next/link"
 import Image from "next/image"
 import USER_IMAGES from '../../src/user_image'
 import PRODUCT_IMAGES from "../../src/product_images"
+import {
+    FacebookShareButton,
+    FacebookIcon,
+    TelegramShareButton,
+    TelegramIcon,
+    TwitterShareButton,
+    TwitterIcon,
+    LinkedinShareButton,
+    LinkedinIcon,
+    WhatsappShareButton,
+    WhatsappIcon,
+    EmailShareButton,
+    EmailIcon,
+  } from 'next-share';
+  
+  import IntlTelInput from 'react-intl-tel-input';
+  import 'react-intl-tel-input/dist/main.css';
 
 export default function ProductDetail(){
     return (
@@ -11,6 +28,17 @@ export default function ProductDetail(){
                 <title>Product Detail</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             </Head>
+            <div>
+            <div className="mt-2 px-3 py-3 container max-w-screen-xl m-auto bg-white rounded border">
+                <p className="text-lg">
+                    
+                        <strong className="text-red-600">
+                        <Link href="/products">ផលិតផល​ > </Link> 
+                        </strong> 
+                    <small className="text-base">ឧបករណ៍ឈុតហាត់ប្រាណពិសេសមាន ៦ មុខ</small>
+                </p>
+            </div>
+            </div>
             <div className="mt-2 container max-w-screen-xl m-auto">
                 <div className="flex gap-2">
                     <div className="w-3/4">
@@ -69,6 +97,57 @@ export default function ProductDetail(){
                                         </svg>
                                     </button>
                                 </div>
+                                <div className="mt-10 flex justify-start items-center gap-2">
+                                    <p className="font-bold text-gray-600">ចែករំលែក</p>
+                                    <FacebookShareButton
+                                    url={'https://github.com/next-share'}
+                                    quote={'next-share is a social share buttons for your next React apps.'}
+                                    hashtag={'#nextshare'}
+                                    >
+                                    <FacebookIcon size={24} round />
+                                    </FacebookShareButton>
+
+                                    <TelegramShareButton
+                                    url={'https://github.com/next-share'}
+                                    title={'next-share is a social share buttons for your next React apps.'}
+                                    >
+                                    <TelegramIcon size={24} round />
+                                    </TelegramShareButton>
+
+                                    <TwitterShareButton
+                                    url={'https://github.com/next-share'}
+                                    title={'next-share is a social share buttons for your next React apps.'}
+                                    >
+                                    <TwitterIcon size={24} round />
+                                    </TwitterShareButton>
+
+                                    <LinkedinShareButton url={'https://github.com/next-share'}>
+                                    <LinkedinIcon size={24} round />
+                                    </LinkedinShareButton>
+
+
+                                    <WhatsappShareButton
+                                    url={'https://github.com/next-share'}
+                                    title={'next-share is a social share buttons for your next React apps.'}
+                                    separator=":: "
+                                    >
+                                    <WhatsappIcon size={24} round />
+                                    </WhatsappShareButton>
+
+                                    <EmailShareButton
+                                    url={'https://github.com/next-share'}
+                                    subject={'Next Share'}
+                                    body="body"
+                                    >
+                                    <EmailIcon size={24} round />
+                                    </EmailShareButton>
+
+                                </div>
+                                <div className="page-section">
+                                    <div className="flex">
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div className="p-6 bg-white">
@@ -88,7 +167,7 @@ export default function ProductDetail(){
                         </div>
                     </div>
                     <div className="w-1/4">
-                        <div className="bg-white py-10 px-3">
+                        <div className="bg-white py-10 px-3 border shadow-md">
                             <div className="supplier-profile">
                                 <div className="w-28 h-28 overflow-hidden border-2 rounded-full m-auto">
                                     <Image src={USER_IMAGES['mol-saphat']} className="rounded"/>
@@ -97,8 +176,52 @@ export default function ProductDetail(){
                                     <p>MOL Saphat</p>
                                     <small className="text-gray-400 text-xs">Freelance Web Developer at SmartDev KH</small>
                                 </div>
-                                <div className="text-center items-center">
-                                    <a className="px-5 py-1 pt-2 border border-gray-300 hover:border-gray-500 rounded-full text-sm text-gray-500 cursor-pointer">Call Me</a>
+                                <div className="grid grid-cols-2 gap-4 text-center">
+                                    <a className="gap-2 flex justify-center items-center px-5 py-1 pt-2 border border-gray-300 hover:border-gray-500 rounded-full text-sm text-gray-500 cursor-pointer">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="-mt-1 h-5 w-5" fill="none" viewBox="0 0 20 24" stroke="currentColor">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
+                                        </svg>
+                                        <span>Add Me</span>
+                                    </a>
+                                    <a className="gap-2 flex justify-center items-center px-5 py-1 pt-2 border border-gray-300 hover:border-gray-500 rounded-full text-sm text-gray-500 cursor-pointer">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 3l-6 6m0 0V4m0 5h5M5 3a2 2 0 00-2 2v1c0 8.284 6.716 15 15 15h1a2 2 0 002-2v-3.28a1 1 0 00-.684-.948l-4.493-1.498a1 1 0 00-1.21.502l-1.13 2.257a11.042 11.042 0 01-5.516-5.517l2.257-1.128a1 1 0 00.502-1.21L9.228 3.683A1 1 0 008.279 3H5z" />
+                                        </svg>
+                                        <span>Call Me</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="mt-3 bg-white py-5 px-3 shadow-md border">
+                            <h1 className="text-lg font-bold">Request Details</h1>
+                            <hr className="mt-2"/>
+                            <div className="mt-5">
+                                <div className="grid grid-cols-2 gap-2 mb-3">
+                                    <div className="flex items-center border">
+                                        <div className="w-9 justify-center border-r">
+                                            <svg xmlns="http://www.w3.org/2000/svg" className="text-gray-500 ml-1 py-1 h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                            </svg>
+                                        </div>
+                                        <input type="text" className="w-full px-2 text-sm focus:outline-none" placeholder="Full Name"/>
+                                    </div>
+                                    <div className="flex items-center border">
+                                        <IntlTelInput preferredCountries={['kh']} containerClassName="intl-tel-input" inputClassName="form-control w-full text-xs"/>
+                                    </div>
+                                </div>
+                                <div className="flex items-center border mb-3">
+                                    <div className="w-9 justify-center border-r">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="text-gray-500 ml-1 py-1 h-7 w-7" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fillRule="evenodd" d="M14.243 5.757a6 6 0 10-.986 9.284 1 1 0 111.087 1.678A8 8 0 1118 10a3 3 0 01-4.8 2.401A4 4 0 1114 10a1 1 0 102 0c0-1.537-.586-3.07-1.757-4.243zM12 10a2 2 0 10-4 0 2 2 0 004 0z" clipRule="evenodd" />
+                                        </svg>
+                                    </div>
+                                    <input type="text" className="w-full px-2 text-sm focus:outline-none" placeholder="Your email"/>
+                                </div>
+                                <div>
+                                    <textarea className="tl-control Description w-full h-16 text-sm" placeholder="Write message to agent here"></textarea>
+                                </div>
+                                <div className="my-3 py-1 px-20 text-center cursor-pointer border bg-primary text-white">
+                                    <a>Contact Agents</a>
                                 </div>
                             </div>
                         </div>
