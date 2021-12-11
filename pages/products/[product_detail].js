@@ -170,11 +170,11 @@ export default function ProductDetail(){
                         <div className="bg-white py-10 px-3 border shadow-md">
                             <div className="supplier-profile">
                                 <div className="w-28 h-28 overflow-hidden border-2 rounded-full m-auto">
-                                    <Image src={USER_IMAGES['mol-saphat']} className="rounded" alt=""/>
+                                    <Image src={USER_IMAGES['agents']} className="rounded" alt=""/>
                                 </div>
                                 <div className="my-3 text-center">
-                                    <p>MOL Saphat</p>
-                                    <small className="text-gray-400 text-xs">Freelance Web Developer at SmartDev KH</small>
+                                    <p>Rachel Mitchell</p>
+                                    <small className="text-gray-400 text-xs">Executive Producer at B2B Growth Marketing</small>
                                 </div>
                                 <div className="grid grid-cols-2 gap-4 text-center">
                                     <a className="gap-2 flex justify-center items-center px-5 py-1 pt-2 border border-gray-300 hover:border-gray-500 rounded-full text-sm text-gray-500 cursor-pointer">
