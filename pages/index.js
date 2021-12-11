@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
+import { useRouter } from 'next/router'
+
 import PRODUCT_IMAGES from '../src/product_images'
 import USER_IMAGES from '../src/user_image'
 import FOOTER_IMAGE from '../src/footer_image'
@@ -9,12 +11,18 @@ import TopSlider from '../components/TopSlider'
 import LSlider from '../components/LeftSlider'
 import RSlider from '../components/RightSlider'
 
+import km from '../locales/km'
+import en from '../locales/en'
+
+
 export default function Home() {
-  
+  const router = useRouter();
+  const {locale} = router;
+  const t = locale === 'km' ? km : en;
   return (
       <div>
         <Head>
-          <title>Home Page</title>
+          <title>Home</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
         <main>
@@ -25,7 +33,7 @@ export default function Home() {
                   <li className="cursor-pointer hover:shadow-md">
                     <Link href="/" passHref>
                       <div className="flex justify-between px-2 py-2">
-                        អេឡិចត្រូនិច
+                        អេឡិចត្រូនិច { t.home }
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                           <path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clipRule="evenodd" />
                         </svg>

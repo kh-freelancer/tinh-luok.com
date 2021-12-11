@@ -1,9 +1,8 @@
-const withPWA = require("next-pwa");
-
-module.exports = withPWA({
-  pwa: {
-    dest: "public",
-    register: true,
-    skipWaiting: true,
+module.exports = {
+  i18n: {
+    locales: ['km', 'en'],
+    defaultLocale: 'km',
+    localeDetection: false,
   },
-});
+  trailingSlash: true,
+}

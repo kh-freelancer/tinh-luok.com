@@ -170,7 +170,7 @@ export default function ProductDetail(){
                         <div className="bg-white py-10 px-3 border shadow-md">
                             <div className="supplier-profile">
                                 <div className="w-28 h-28 overflow-hidden border-2 rounded-full m-auto">
-                                    <Image src={USER_IMAGES['mol-saphat']} className="rounded"/>
+                                    <Image src={USER_IMAGES['mol-saphat']} className="rounded" alt=""/>
                                 </div>
                                 <div className="my-3 text-center">
                                     <p>MOL Saphat</p>
@@ -191,6 +191,42 @@ export default function ProductDetail(){
                                     </a>
                                 </div>
                             </div>
+                        </div>
+                        <div className="mt-3 bg-white py-5 px-3 shadow-md border">
+                            <ul>
+                                <li>
+                                    <div className="flex gap-2">
+                                        <div className="w-1/4">
+                                            <Image className="w-full" src={USER_IMAGES['page']} alt="Our Page"/>
+                                        </div>
+                                        <div className="w-3/4">
+                                            <lable className="font-semibold text-red-500">Page: Tinh Luok</lable>
+                                            <a className="flex w-28 pt-2 pb-1 justify-center items-center border rounded-full text-xs hover:bg-primary hover:text-white">
+                                                <svg xmlns="http://www.w3.org/2000/svg" className="-mt-1 h-5 w-5" fill="none" viewBox="0 0 20 24" stroke="currentColor">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
+                                                </svg>
+                                                <span className="ml-1 cursor-pointer">Follow Page</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className="flex gap-2">
+                                        <div className="w-1/4">
+                                            <Image className="w-full" src={USER_IMAGES['group']} alt="Our Page"/>
+                                        </div>
+                                        <div className="w-3/4">
+                                            <strong className="text-red-500">Group Tinh Luok</strong>
+                                            <a className="flex w-28 pt-1.5 pb-1 justify-center items-center border rounded-full text-xs hover:bg-primary hover:text-white">
+                                                <svg xmlns="http://www.w3.org/2000/svg" className="-mt-1 h-5 w-5" fill="none" viewBox="0 0 20 24" stroke="currentColor">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
+                                                </svg>
+                                                <span className="ml-1 cursor-pointer">Join Group</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                         <div className="mt-3 bg-white py-5 px-3 shadow-md border">
                             <h1 className="text-lg font-bold">Request Details</h1>
