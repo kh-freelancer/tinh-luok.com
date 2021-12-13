@@ -20,7 +20,7 @@ export default function ResetPassword() {
                             {/* <label className="text-base">អ៊ីមែល:</label> */}
                             <input type="text" className="login_account w-full border-gray-400 focus:border-gray-400" placeholder="អ៊ីមែលរបស់លោកអ្នក"/>
                         </div>
-                        <div className="mt-5 w-full border text-center bg-primary text-white">
+                        <div className="mt-5 w-full border text-center bg-primary hover:bg-secondaray text-white cursor-pointer">
                             កំណត់ពាក្យសង្ងាត់ឡើងវិញ
                         </div>
                     </div>

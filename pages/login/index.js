@@ -24,14 +24,14 @@ export default function Login() {
                             <label className="text-base">ពាក្យសម្ងាត់:</label>
                             <input type="password" className="login_account w-full border-gray-400 focus:border-gray-400"/>
                         </div>
-                        <div className="mt-5 w-full border text-center bg-primary text-white">
+                        <div className="mt-5 w-full border text-center bg-primary hover:bg-secondaray text-white cursor-pointer">
                             ចូលគណនី
                         </div>
                         <Link href="/reset-password" passHref>
                             <a className="text-yellow-600 text-sm">ភ្លេចលេខសំងាត់</a>
                         </Link>
                         <div className="or"><div>ឬ</div></div>
-                        <div className="mt-5 w-full border text-center bg-facebook text-white">
+                        <div className="mt-5 w-full border text-center bg-facebook text-white cursor-pointer">
                             ចូលគណនីជាមួយហ្វេសប៊ុក
                         </div>
                         <div className="mt-3 flex items-center justify-start">
@@ -39,8 +39,8 @@ export default function Login() {
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                             </svg>
                             <div className="text-sm">
-                                <label>មិនទាន់មានគណនីទឬ?</label>
-                                <Link href="/">
+                                <label>មិនទាន់មានគណនីទេឬ?</label>
+                                <Link href="/register">
                                     <a className="ml-1 text-yellow-600">ចុះឈ្មោះទីនេះ</a>
                                 </Link>
                             </div>

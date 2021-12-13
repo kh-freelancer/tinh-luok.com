@@ -147,7 +147,7 @@ export default function Header() {
                                     <Link href="/products" passHref>ផលិតផល</Link>
                                 </li>
                                 <li className="px-4 py-3 cursor-pointer hover:text-red-500">
-                                    <Link href="" passHref>អចលទ្រព្យ</Link>
+                                    <Link href="/realestate" passHref>អចលទ្រព្យ</Link>
                                 </li>
                                 <li className="px-4 py-3 cursor-pointer hover:text-red-500">
                                     <Link href="/news" passHref>ព័ត៌មាន</Link>
