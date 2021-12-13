@@ -30,7 +30,7 @@ export default function Login() {
                         <Link href="/">
                             <a className="text-yellow-600 text-sm">ភ្លេចលេខសំងាត់</a>
                         </Link>
-                        <div class="or"><div>ឬ</div></div>
+                        <div className="or"><div>ឬ</div></div>
                         <div className="mt-5 w-full border text-center bg-facebook text-white">
                             ចូលគណនីជាមួយហ្វេសប៊ុក
                         </div>
