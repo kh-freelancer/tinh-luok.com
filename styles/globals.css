@@ -139,4 +139,7 @@ a{
 .text-brand{
   color:#FF6A00;
 }
+.svg-login{
+  transform: rotate(180deg);
+}
 

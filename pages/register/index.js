@@ -11,7 +11,7 @@ export default function Register() {
             </Head>
             <div className="mt-16 mb-16 container max-w-screen-xl m-auto">
                 <div className="flex w-4/5 m-auto">
-                    <div className="pt-10 pl-5 w-1/2 bg-white">
+                    <div className="pt-5 pl-5 w-1/2 bg-white">
                         <svg xmlns="http://www.w3.org/2000/svg" className="m-auto h-28 w-28 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
                         </svg>
