@@ -8,11 +8,11 @@ export default function Login() {
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             </Head>
             <div className="mt-16 mb-16 container max-w-screen-xl m-auto">
-                <div className="flex gap-2 w-4/5 m-auto">
-                    <div className="w-1/2 bg-white border overflow-hidden">
+                <div className="flex w-4/5 m-auto">
+                    <div className="hide md:show w-1/2 bg-white  overflow-hidden">
                         
                     </div>
-                    <div className="w-1/2 leading-10 wrapper-login pt-5 px-8 pb-10 h-auto m-auto bg-white shadow-md border">
+                    <div className="w-1/2 leading-10 wrapper-login pt-5 px-8 pb-10 h-auto m-auto bg-white">
                         <div className="pb-3 my-3 border-b">
                             <h1 className="text-lg font-bold">ចូលគណនីជាមួយពាក្យសម្ងាត់</h1>
                         </div>
@@ -27,7 +27,7 @@ export default function Login() {
                         <div className="mt-5 w-full border text-center bg-primary text-white">
                             ចូលគណនី
                         </div>
-                        <Link href="/">
+                        <Link href="/" passHref>
                             <a className="text-yellow-600 text-sm">ភ្លេចលេខសំងាត់</a>
                         </Link>
                         <div className="or"><div>ឬ</div></div>
