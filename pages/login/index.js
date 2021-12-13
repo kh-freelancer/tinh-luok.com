@@ -14,14 +14,14 @@ export default function Login() {
                     </div>
                     <div className="w-1/2 leading-10 wrapper-login pt-5 px-8 pb-10 h-auto m-auto bg-white shadow-md border">
                         <div className="pb-3 my-3 border-b">
-                            <h1 className="text-lg font-bold">Tinh Luok login</h1>
+                            <h1 className="text-lg font-bold">ចូលគណនីជាមួយពាក្យសម្ងាត់</h1>
                         </div>
                         <div className="w-full inline-block">
                             <label className="text-base">អ៊ីមែល:</label>
                             <input type="text" className="login_account w-full border-gray-400 focus:border-gray-400"/>
                         </div>
                         <div className="w-full inline-block">
-                            <label className="text-base">លេខសង្ងាត់:</label>
+                            <label className="text-base">ពាក្យសម្ងាត់:</label>
                             <input type="password" className="login_account w-full border-gray-400 focus:border-gray-400"/>
                         </div>
                         <div className="mt-5 w-full border text-center bg-primary text-white">
