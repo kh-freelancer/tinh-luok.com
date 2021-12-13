@@ -32,7 +32,9 @@ export default function Header() {
                                         </a>
                                         <ul className="dropdown-menu absolute w-32 border bg-white">
                                             <li className="border-b px-3 py-1">
-                                                <span className="text-sm">ចូលគណនី</span>
+                                                <Link href="/login">
+                                                    <span className="text-sm">ចូលគណនី</span>
+                                                </Link>
                                             </li>
                                             <li className='px-3 py-1'>
                                                 <span className='text-sm'>បង្កើតគណនីថ្មី</span>

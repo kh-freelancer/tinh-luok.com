@@ -7,7 +7,8 @@ module.exports = {
       'secondaray' : '#e35300',
       'white'   : '#ffffff',
       'black'  : '#000000',
-      'pink'  : '#fe4164'
+      'pink'  : '#fe4164',
+      'facebook' : '#3c59aa',
     },
     extend: {},
   },
