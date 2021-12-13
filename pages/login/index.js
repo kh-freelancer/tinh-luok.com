@@ -10,7 +10,7 @@ export default function Login() {
             <div className="mt-16 mb-16 container max-w-screen-xl m-auto">
                 <div className="flex gap-2 w-4/5 m-auto">
                     <div className="w-1/2 bg-white border overflow-hidden">
-                        {/* <img className="object-contain" src="https://www.mis.ceg-cambodia.com/argon-dashboard/assets/img/slider/2.png"/> */}
+                        
                     </div>
                     <div className="w-1/2 leading-10 wrapper-login pt-5 px-8 pb-10 h-auto m-auto bg-white shadow-md border">
                         <div className="pb-3 my-3 border-b">
