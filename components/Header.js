@@ -37,7 +37,9 @@ export default function Header() {
                                                 </Link>
                                             </li>
                                             <li className='px-3 py-1'>
-                                                <span className='text-sm'>បង្កើតគណនីថ្មី</span>
+                                                <Link href="/register">
+                                                    <span className='text-sm'>បង្កើតគណនីថ្មី</span>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </li>

@@ -1,10 +1,10 @@
 import Head from "next/head"
 import Link from "next/link"
-export default function Login() {
+export default function Register() {
     return (
         <>
             <Head>
-                <title>Login</title>
+                <title>Register</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             </Head>
             <div className="mt-16 mb-16 container max-w-screen-xl m-auto">
@@ -27,7 +27,7 @@ export default function Login() {
                         <div className="mt-5 w-full border text-center bg-primary text-white">
                             ចូលគណនី
                         </div>
-                        <Link href="/reset-password" passHref>
+                        <Link href="/" passHref>
                             <a className="text-yellow-600 text-sm">ភ្លេចលេខសំងាត់</a>
                         </Link>
                         <div className="or"><div>ឬ</div></div>
