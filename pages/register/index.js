@@ -69,7 +69,7 @@ export default function Register() {
                             <input type="password" className="login_account w-full border-gray-400 focus:border-gray-400"/>
                         </div>
                         <div className="mt-5 w-full border text-center bg-primary hover:bg-secondaray text-white cursor-pointer">
-                            ចូលគណនី
+                        ចុះឈ្មោះ
                         </div>
                         <div className="or mt-10"><div>ឬ</div></div>
                         <div className="mt-5 w-full border text-center bg-facebook text-white cursor-pointer">
@@ -82,7 +82,7 @@ export default function Register() {
                             <div className="text-sm">
                                 <label>មានគណនីហើយឬ?</label>
                                 <Link href="/login">
-                                    <a className="ml-1 text-yellow-600">ចូលទៅគណនីរបស់អ្នកនៅទីនេះ</a>
+                                    <a className="ml-1 text-brand">ចូលទៅគណនីរបស់អ្នកនៅទីនេះ</a>
                                 </Link>
                             </div>
                         </div>

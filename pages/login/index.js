@@ -50,7 +50,7 @@ export default function Login() {
                             ចូលគណនី
                         </div>
                         <Link href="/reset-password" passHref>
-                            <a className="text-yellow-600 text-sm">ភ្លេចលេខសំងាត់</a>
+                            <a className="text-brand text-sm">ភ្លេចលេខសំងាត់</a>
                         </Link>
                         <div className="or"><div>ឬ</div></div>
                         <div className="mt-5 w-full border text-center bg-facebook text-white cursor-pointer">
@@ -63,7 +63,7 @@ export default function Login() {
                             <div className="text-sm">
                                 <label>មិនទាន់មានគណនីទេឬ?</label>
                                 <Link href="/register">
-                                    <a className="ml-1 text-yellow-600">ចុះឈ្មោះទីនេះ</a>
+                                    <a className="ml-1 text-brand">ចុះឈ្មោះទីនេះ</a>
                                 </Link>
                             </div>
                         </div>
