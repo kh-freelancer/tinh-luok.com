@@ -8,9 +8,9 @@ export default function NewPassword() {
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             </Head>
             <div className="mt-16 mb-16 container max-w-screen-xl m-auto">
-                <div className="mb-10 p-5 flex w-4/5 m-auto bg-green border rounded">
+                {/* <div className="mb-10 p-5 flex w-4/5 m-auto bg-green border rounded">
                     CAA
-                </div>
+                </div> */}
                 <div className="flex w-4/5 m-auto">
                     <div className="pt-5 pl-5 w-1/2 bg-white">
                         <svg xmlns="http://www.w3.org/2000/svg" className="m-auto h-28 w-28 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor">
