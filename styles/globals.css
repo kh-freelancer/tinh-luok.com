@@ -145,4 +145,39 @@ a{
 .bg-green{
   background-color: green;
 }
+.bg-blue{
+  background-color: #60a5fa;
+}
+.menu-categories{
+  margin: auto;
+  padding: 0;
+}
+.menu-categories li{
+  width: 130px;
+  height: 135px;
+  overflow: hidden;
+  list-style: none;
+  float: left;
+  text-align: center;
+  border-left:1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.menu-categories li:first-child{
+  border-left: none;
+}
+.menu-categories li:last-child{
+  border-right: none;
+}
+.menu-categories li img{
+  width: 48px;
+  height: 48px;
+}
+
+
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
 
