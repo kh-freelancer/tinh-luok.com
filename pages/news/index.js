@@ -28,7 +28,7 @@ export default function News() {
                                     </div>
                                     <div className="flex items-center">
                                         <div className="rounded-full w-8 h-8 overflow-hidden border-2 border-yellow-600">
-                                            <Image src={USER_IMAGES['sron-chhitly']} className="w-8 h-8 rounded-full object-cover" alt=""/>
+                                            <Image src={USER_IMAGES['sron-chhitly']} className="w-8 h-8 rounded-full object-cover" alt="User"/>
                                         </div>
                                         <span className="px-1 text-xs font-semibold text-white">S.C</span>
                                     </div>
@@ -36,13 +36,13 @@ export default function News() {
                             </div>
                         </div>
                         <div className="h-news img-hover-zoom cursor-pointer overflow-hidden bg-gradient-to-t from-current to-transparent">
-                            <Image src={NEWS_IMAGES['news-top-left']}/>
+                            <Image src={NEWS_IMAGES['news-top-left']} alt="News top left"/>
                         </div>
                     </div>
                     <div className="w-1/3">
                         <div className="h-news rounded overflow-hidden">
                             <div className="h-48 img-hover-zoom overflow-hidden cursor-pointer">
-                                <Image className="w-full h-full object-contain" src={NEWS_IMAGES['news-top-right']}/>
+                                <Image className="w-full h-full object-contain" src={NEWS_IMAGES['news-top-right']} alt="new top right"/>
                             </div>
                             <div className="p-5 bg-gray">
                                 <span className="text-md font-bold text-black">
@@ -57,7 +57,7 @@ export default function News() {
                                     </div>
                                     <div className="flex items-center">
                                         <div className="rounded-full w-8 h-8 overflow-hidden border-2 border-yellow-600">
-                                            <Image src={USER_IMAGES['sron-chhitly']} className="w-8 h-8 rounded-full object-cover" alt=""/>
+                                            <Image src={USER_IMAGES['sron-chhitly']} className="w-8 h-8 rounded-full object-cover" alt="user"/>
                                         </div>
                                         <span className="px-1 text-xs font-bold text-gray-500">S.C</span>
                                     </div>
@@ -81,7 +81,7 @@ export default function News() {
                         <div className="grid grid-cols-2 gap-6">
                             <div className="h-news rounded overflow-hidden bg-gray">
                                 <div className="h-48 img-hover-zoom overflow-hidden cursor-pointer">
-                                    <Image className="w-full h-full object-contain" src={NEWS_IMAGES['news-l01']}/>
+                                    <Image className="w-full h-full object-contain" src={NEWS_IMAGES['news-l01']} alt="news left 01"/>
                                 </div>
                                 <div className="p-5">
                                     <span className="text-md font-bold text-black">
@@ -96,7 +96,7 @@ export default function News() {
                                         </div>
                                         <div className="flex items-center">
                                             <div className="rounded-full w-8 h-8 overflow-hidden border-2 border-yellow-600">
-                                                <Image src={USER_IMAGES['khmerload']} className="w-8 h-8 rounded-full object-cover" alt=""/>
+                                                <Image src={USER_IMAGES['khmerload']} className="w-8 h-8 rounded-full object-cover" alt="user"/>
                                             </div>
                                             <span className="px-1 text-xs font-bold text-gray-500">S.C</span>
                                         </div>
@@ -115,7 +115,7 @@ export default function News() {
                             </div>
                             <div className="h-news rounded overflow-hidden bg-gray">
                                 <div className="h-48 img-hover-zoom overflow-hidden cursor-pointer">
-                                    <Image className="w-full h-full object-contain" src={NEWS_IMAGES['news-l02']}/>
+                                    <Image className="w-full h-full object-contain" src={NEWS_IMAGES['news-l02']} alt="news left 02"/>
                                 </div>
                                 <div className="p-5">
                                     <span className="text-md font-bold text-black">
@@ -130,7 +130,7 @@ export default function News() {
                                         </div>
                                         <div className="flex items-center">
                                             <div className="rounded-full w-8 h-8 overflow-hidden border-2 border-yellow-600">
-                                                <Image src={USER_IMAGES['kl1']} className="w-8 h-8 rounded-full object-cover" alt=""/>
+                                                <Image src={USER_IMAGES['kl1']} className="w-8 h-8 rounded-full object-cover" alt="user"/>
                                             </div>
                                             <span className="px-1 text-xs font-bold text-gray-500">S.C</span>
                                         </div>
@@ -152,7 +152,7 @@ export default function News() {
                             <div className="w-1/3">
                                 <div className="rounded overflow-hidden img-hover-zoom">
                                     <a className="cursor-pointer">
-                                    <Image className="rounded w-full object-cover" src={NEWS_IMAGES['news-b1']}/>
+                                    <Image className="rounded w-full object-cover" src={NEWS_IMAGES['news-b1']} alt="news body 1"/>
                                     </a>
                                 </div>
                             </div>
@@ -170,7 +170,7 @@ export default function News() {
                                         </div>
                                         <div className="flex items-center">
                                             <div className="rounded-full w-8 h-8 overflow-hidden border-2 border-yellow-600">
-                                                <Image src={USER_IMAGES['agents']} className="w-8 h-8 rounded-full object-cover" alt=""/>
+                                                <Image src={USER_IMAGES['agents']} className="w-8 h-8 rounded-full object-cover" alt="user"/>
                                             </div>
                                             <span className="px-1 text-xs font-bold text-gray-500">S.C</span>
                                         </div>
@@ -192,7 +192,7 @@ export default function News() {
                             <div className="w-1/3">
                                 <div className="rounded overflow-hidden img-hover-zoom">
                                     <a className="cursor-pointer">
-                                    <Image className="rounded w-full object-cover" src={NEWS_IMAGES['news-b2']}/>
+                                    <Image className="rounded w-full object-cover" src={NEWS_IMAGES['news-b2']} alt="new body 2"/>
                                     </a>
                                 </div>
                             </div>
@@ -210,7 +210,7 @@ export default function News() {
                                         </div>
                                         <div className="flex items-center">
                                             <div className="rounded-full w-8 h-8 overflow-hidden border-2 border-yellow-600">
-                                                <Image src={USER_IMAGES['kl1']} className="w-8 h-8 rounded-full object-cover" alt=""/>
+                                                <Image src={USER_IMAGES['kl1']} className="w-8 h-8 rounded-full object-cover" alt="user"/>
                                             </div>
                                             <span className="px-1 text-xs font-bold text-gray-500">S.C</span>
                                         </div>
@@ -233,7 +233,7 @@ export default function News() {
                             <div className="w-1/3">
                                 <div className="rounded overflow-hidden img-hover-zoom">
                                     <a className="cursor-pointer">
-                                    <Image className="rounded w-full object-cover" src={NEWS_IMAGES['news-b3']}/>
+                                    <Image className="rounded w-full object-cover" src={NEWS_IMAGES['news-b3']} alt="news body 3"/>
                                     </a>
                                 </div>
                             </div>
@@ -251,7 +251,7 @@ export default function News() {
                                         </div>
                                         <div className="flex items-center">
                                             <div className="rounded-full w-8 h-8 overflow-hidden border-2 border-yellow-600">
-                                                <Image src={USER_IMAGES['sron-chhitly']} className="w-8 h-8 rounded-full object-cover" alt=""/>
+                                                <Image src={USER_IMAGES['sron-chhitly']} className="w-8 h-8 rounded-full object-cover" alt="user"/>
                                             </div>
                                             <span className="px-1 text-xs font-bold text-gray-500">S.C</span>
                                         </div>
@@ -274,7 +274,7 @@ export default function News() {
                             <div className="w-1/3">
                                 <div className="rounded overflow-hidden img-hover-zoom">
                                     <a className="cursor-pointer">
-                                    <Image className="rounded w-full object-cover" src={NEWS_IMAGES['news-b4']}/>
+                                    <Image className="rounded w-full object-cover" src={NEWS_IMAGES['news-b4']} alt="news body 4"/>
                                     </a>
                                 </div>
                             </div>
@@ -292,7 +292,7 @@ export default function News() {
                                         </div>
                                         <div className="flex items-center">
                                             <div className="rounded-full w-8 h-8 overflow-hidden border-2 border-yellow-600">
-                                                <Image src={USER_IMAGES['khmerload']} className="w-8 h-8 rounded-full object-cover" alt=""/>
+                                                <Image src={USER_IMAGES['khmerload']} className="w-8 h-8 rounded-full object-cover" alt="user"/>
                                             </div>
                                             <span className="px-1 text-xs font-bold text-gray-500">S.C</span>
                                         </div>
@@ -315,13 +315,13 @@ export default function News() {
                     </div>
                     <div className="w-1/3">
                         <div className="w-full object-fill cursor-pointer">
-                            <Image className="w-full object-fill" src={ADS_IMAGES['news-right-1']}/>
+                            <Image className="w-full object-fill" src={ADS_IMAGES['news-right-1']} alt="ads 1"/>
                         </div>
                         <div className="w-full object-fill cursor-pointer">
-                            <Image className="w-full object-fill" src={ADS_IMAGES['Figtree-min']}/>
+                            <Image className="w-full object-fill" src={ADS_IMAGES['Figtree-min']} alt="ads 2"/>
                         </div>
                         <div className="w-full object-fill cursor-pointer">
-                            <Image className="w-full object-fill" src={ADS_IMAGES['8-min']}/>
+                            <Image className="w-full object-fill" src={ADS_IMAGES['8-min']} alt="ads 3"/>
                         </div>
                     </div>
                 </div>
