@@ -89,18 +89,18 @@ export default function Realesate(){
                     <div className="searchDropDown absolute top-14 w-full h-96 bg-white z-50 p-5">
                         <div className="grid grid-cols-4 gap-4">
                             <div>
-                                <label id="listbox-label" class="block text-sm font-medium text-gray-700">
+                                <label id="listbox-label" className="block text-sm font-medium text-gray-700">
                                     Property Type
                                 </label>
-                                <div class="mt-1 relative">
-                                <button type="button" class="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
-                                    <span class="flex items-center">
+                                <div className="mt-1 relative">
+                                <button type="button" className="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
+                                    <span className="flex items-center">
                                         
-                                        <span class="ml-3 block truncate">
+                                        <span className="ml-3 block truncate">
                                         Residentail
                                         </span>
                                     </span>
-                                    <span class="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                    <span className="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
                                         
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                             <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
@@ -111,18 +111,18 @@ export default function Realesate(){
                             </div>
                             
                             <div>
-                                <label id="listbox-label" class="block text-sm font-medium text-gray-700">
+                                <label id="listbox-label" className="block text-sm font-medium text-gray-700">
                                     Transaction Type
                                 </label>
-                                <div class="mt-1 relative">
-                                <button type="button" class="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
-                                    <span class="flex items-center">
+                                <div className="mt-1 relative">
+                                <button type="button" className="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
+                                    <span className="flex items-center">
                                         
-                                        <span class="ml-3 block truncate">
+                                        <span className="ml-3 block truncate">
                                         For Sale
                                         </span>
                                     </span>
-                                    <span class="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                    <span className="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                             <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                                         </svg>
@@ -132,18 +132,18 @@ export default function Realesate(){
                             </div>
 
                             <div>
-                                <label id="listbox-label" class="block text-sm font-medium text-gray-700">
+                                <label id="listbox-label" className="block text-sm font-medium text-gray-700">
                                     Min Price
                                 </label>
-                                <div class="mt-1 relative">
-                                <button type="button" class="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
-                                    <span class="flex items-center">
+                                <div className="mt-1 relative">
+                                <button type="button" className="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
+                                    <span className="flex items-center">
                                         
-                                        <span class="ml-3 block truncate">
+                                        <span className="ml-3 block truncate">
                                         0
                                         </span>
                                     </span>
-                                    <span class="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                    <span className="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                             <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                                         </svg>
@@ -153,18 +153,18 @@ export default function Realesate(){
                             </div>
 
                             <div>
-                                <label id="listbox-label" class="block text-sm font-medium text-gray-700">
+                                <label id="listbox-label" className="block text-sm font-medium text-gray-700">
                                     Max Price
                                 </label>
-                                <div class="mt-1 relative">
-                                <button type="button" class="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
-                                    <span class="flex items-center">
+                                <div className="mt-1 relative">
+                                <button type="button" className="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
+                                    <span className="flex items-center">
                                         
-                                        <span class="ml-3 block truncate">
+                                        <span className="ml-3 block truncate">
                                         Unlimited
                                         </span>
                                     </span>
-                                    <span class="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                    <span className="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                             <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                                         </svg>
@@ -175,18 +175,18 @@ export default function Realesate(){
                             
 
                             <div>
-                                <label id="listbox-label" class="block text-sm font-medium text-gray-700">
+                                <label id="listbox-label" className="block text-sm font-medium text-gray-700">
                                     Beds
                                 </label>
-                                <div class="mt-1 relative">
-                                <button type="button" class="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
-                                    <span class="flex items-center">
+                                <div className="mt-1 relative">
+                                <button type="button" className="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
+                                    <span className="flex items-center">
                                         
-                                        <span class="ml-3 block truncate">
+                                        <span className="ml-3 block truncate">
                                         Any
                                         </span>
                                     </span>
-                                    <span class="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                    <span className="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                             <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                                         </svg>
@@ -195,18 +195,18 @@ export default function Realesate(){
                                 </div>
                             </div>
                             <div>
-                                <label id="listbox-label" class="block text-sm font-medium text-gray-700">
+                                <label id="listbox-label" className="block text-sm font-medium text-gray-700">
                                     Baths
                                 </label>
-                                <div class="mt-1 relative">
-                                <button type="button" class="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
-                                    <span class="flex items-center">
+                                <div className="mt-1 relative">
+                                <button type="button" className="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
+                                    <span className="flex items-center">
                                         
-                                        <span class="ml-3 block truncate">
+                                        <span className="ml-3 block truncate">
                                         Any
                                         </span>
                                     </span>
-                                    <span class="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                    <span className="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                             <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                                         </svg>
@@ -215,18 +215,18 @@ export default function Realesate(){
                                 </div>
                             </div>
                             <div>
-                                <label id="listbox-label" class="block text-sm font-medium text-gray-700">
+                                <label id="listbox-label" className="block text-sm font-medium text-gray-700">
                                     Land Size
                                 </label>
-                                <div class="mt-1 relative">
-                                <button type="button" class="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
-                                    <span class="flex items-center">
+                                <div className="mt-1 relative">
+                                <button type="button" className="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
+                                    <span className="flex items-center">
                                         
-                                        <span class="ml-3 block truncate">
+                                        <span className="ml-3 block truncate">
                                         Any
                                         </span>
                                     </span>
-                                    <span class="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                    <span className="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                             <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                                         </svg>
@@ -235,18 +235,18 @@ export default function Realesate(){
                                 </div>
                             </div>
                             <div>
-                                <label id="listbox-label" class="block text-sm font-medium text-gray-700">
+                                <label id="listbox-label" className="block text-sm font-medium text-gray-700">
                                     Listed Since
                                 </label>
-                                <div class="mt-1 relative">
-                                <button type="button" class="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
-                                    <span class="flex items-center">
+                                <div className="mt-1 relative">
+                                <button type="button" className="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
+                                    <span className="flex items-center">
                                         
-                                        <span class="ml-3 block truncate">
+                                        <span className="ml-3 block truncate">
                                         mm /dd/ yyyy
                                         </span>
                                     </span>
-                                    <span class="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                    <span className="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                             <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                                         </svg>
@@ -255,18 +255,18 @@ export default function Realesate(){
                                 </div>
                             </div>
                             <div>
-                                <label id="listbox-label" class="block text-sm font-medium text-gray-700">
+                                <label id="listbox-label" className="block text-sm font-medium text-gray-700">
                                     Building Type
                                 </label>
-                                <div class="mt-1 relative">
-                                <button type="button" class="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
-                                    <span class="flex items-center">
+                                <div className="mt-1 relative">
+                                <button type="button" className="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
+                                    <span className="flex items-center">
                                         
-                                        <span class="ml-3 block truncate">
+                                        <span className="ml-3 block truncate">
                                         Any
                                         </span>
                                     </span>
-                                    <span class="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                    <span className="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                             <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                                         </svg>
@@ -275,18 +275,18 @@ export default function Realesate(){
                                 </div>
                             </div>
                             <div>
-                                <label id="listbox-label" class="block text-sm font-medium text-gray-700">
+                                <label id="listbox-label" className="block text-sm font-medium text-gray-700">
                                     Storeys
                                 </label>
-                                <div class="mt-1 relative">
-                                <button type="button" class="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
-                                    <span class="flex items-center">
+                                <div className="mt-1 relative">
+                                <button type="button" className="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
+                                    <span className="flex items-center">
                                         
-                                        <span class="ml-3 block truncate">
+                                        <span className="ml-3 block truncate">
                                         Any
                                         </span>
                                     </span>
-                                    <span class="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                    <span className="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                             <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                                         </svg>
@@ -295,18 +295,18 @@ export default function Realesate(){
                                 </div>
                             </div>
                             <div>
-                                <label id="listbox-label" class="block text-sm font-medium text-gray-700">
+                                <label id="listbox-label" className="block text-sm font-medium text-gray-700">
                                 Ownership/Title
                                 </label>
-                                <div class="mt-1 relative">
-                                <button type="button" class="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
-                                    <span class="flex items-center">
+                                <div className="mt-1 relative">
+                                <button type="button" className="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
+                                    <span className="flex items-center">
                                         
-                                        <span class="ml-3 block truncate">
+                                        <span className="ml-3 block truncate">
                                         Any
                                         </span>
                                     </span>
-                                    <span class="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                    <span className="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                             <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                                         </svg>
@@ -315,18 +315,18 @@ export default function Realesate(){
                                 </div>
                             </div>
                             <div>
-                                <label id="listbox-label" class="block text-sm font-medium text-gray-700">
+                                <label id="listbox-label" className="block text-sm font-medium text-gray-700">
                                     Open hourse only
                                 </label>
-                                <div class="mt-1 relative">
-                                <button type="button" class="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
-                                    <span class="flex items-center">
+                                <div className="mt-1 relative">
+                                <button type="button" className="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
+                                    <span className="flex items-center">
                                         
-                                        <span class="ml-3 block truncate">
+                                        <span className="ml-3 block truncate">
                                         
                                         </span>
                                     </span>
-                                    <span class="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                    <span className="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                             <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                                         </svg>
