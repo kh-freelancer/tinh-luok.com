@@ -3,8 +3,12 @@ import Link from "next/link"
 import Image from 'next/image'
 import PRODUCT_IMAGES from '../../src/product_images'
 import MENU_IMAGES from '../../src/menu_categoy'
+import USER_IMAGES from '../../src/user_image'
 
 export default function Realesate(){
+    const handelDropDown = (e) => {
+        console.log(1111);
+    }
     return (
         <>
             <Head>
@@ -12,71 +16,328 @@ export default function Realesate(){
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             </Head>
             <div className="mb-16 container max-w-screen-xl m-auto">
-                <div className="flex gap-4 my-5 justify-end items-center">
-                    <div className="w-5/6">
-                        <div className="flex justify-between items-center search-wrapper rounded-full border-2 bg-white border-yellow-500 h-12">
-                            <div className="w-24 h-8 border-r-2">
-                                <select className="ml-3 w-20 h-8 cursor-pointer focus:outline-none">
-                                    <option>ទិញ</option>
-                                    <option>លក់</option>
-                                    <option>ជួល</option>
-                                </select>
-                            </div>
-                            <div className="pl-3 flex justify-between items-center w-96 h-8 border-r-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" />
-                                </svg>
-                                <input type="text" className="w-full h-8 px-3 text-base focus:outline-none" placeholder="បញ្ចូលទីតាំង, គ្រោង,​ ឬឈ្មោះភ្នាក់ងារ"/>
-                            </div>
-                            <div className="pl-3 flex justify-between items-center w-52 h-8 border-r-2">
-                                <div className="leading-5 text-sm">
-                                    <div>ប្រភេទអចលទ្រព្យ</div>
-                                    <div>វិឡា​ភ្លោះ +3</div>
+                <div className="relative">
+                    <div className="flex gap-4 my-5 justify-end items-center">
+                        <div className="w-5/6">
+                            <div className="flex justify-between items-center search-wrapper rounded-full border-2 bg-white border-yellow-500 h-12">
+                                <div className="w-24 h-8 border-r-2">
+                                    <select className="ml-3 w-20 h-8 cursor-pointer focus:outline-none">
+                                        <option>ទិញ</option>
+                                        <option>លក់</option>
+                                        <option>ជួល</option>
+                                    </select>
                                 </div>
-                                <div>
+                                <div className="pl-3 flex justify-between items-center w-96 h-8 border-r-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                                        <path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" />
                                     </svg>
+                                    <input type="text" className="w-full h-8 px-3 text-base focus:outline-none" placeholder="ជ្រើសរើសទីតាំង"/>
+                                </div>
+                                <div className="pl-3 flex justify-between items-center w-52 h-8 border-r-2">
+                                    <div className="leading-5 text-sm">
+                                        <div>ប្រភេទអចលទ្រព្យ</div>
+                                        <div>វិឡា​ភ្លោះ +3</div>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div className="pl-3 flex justify-between items-center w-36 h-8 border-r-2">
+                                    <div className="leading-5 text-sm">
+                                        <div>តម្លៃ</div>
+                                        <div>មិនកំណត់</div>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div className="pl-3 flex justify-between items-center w-36 h-8">
+                                    <div className="leading-5 text-sm">
+                                        <div>បន្ទប់គេង</div>
+                                        <div>មិនកំណត់</div>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div className="h-8">
+                                    <div className="flex justify-center items-center -mt-1 w-10 h-10 rounded-full bg-primary text-white">
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fillRule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clipRule="evenodd" />
+                                        </svg>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="pl-3 flex justify-between items-center w-36 h-8 border-r-2">
-                                <div className="leading-5 text-sm">
-                                    <div>តម្លៃ</div>
-                                    <div>មិនកំណត់</div>
-                                </div>
-                                <div>
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
-                                    </svg>
-                                </div>
-                            </div>
-                            <div className="pl-3 flex justify-between items-center w-36 h-8">
-                                <div className="leading-5 text-sm">
-                                    <div>បន្ទប់គេង</div>
-                                    <div>មិនកំណត់</div>
-                                </div>
-                                <div>
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
-                                    </svg>
-                                </div>
-                            </div>
-                            <div className="h-8">
-                                <div className="flex justify-center items-center -mt-1 w-10 h-10 rounded-full bg-primary text-white">
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fillRule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clipRule="evenodd" />
+                        </div>
+                        <div className="w-1/6">
+                            <div onClick={handelDropDown} className="flex justify-between items-center pl-3 border-2 h-12 rounded-full border-yellow-500 bg-white">
+                                <div>Filters</div>
+                                <div className="w-10 h-10 flex justify-center items-center rounded-full bg-primary hover:bg-secondaray p-2 cursor-pointer text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fillRule="evenodd" d="M3 3a1 1 0 011-1h12a1 1 0 011 1v3a1 1 0 01-.293.707L12 11.414V15a1 1 0 01-.293.707l-2 2A1 1 0 018 17v-5.586L3.293 6.707A1 1 0 013 6V3z" clipRule="evenodd" />
                                     </svg>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="w-1/6">
-                        <div className="flex justify-between items-center pl-3 border-2 h-12 rounded-full border-yellow-500 bg-white">
-                            <div>Filters</div>
-                            <div className="w-10 h-10 flex justify-center items-center rounded-full bg-primary hover:bg-secondaray p-2 cursor-pointer text-white">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fillRule="evenodd" d="M3 3a1 1 0 011-1h12a1 1 0 011 1v3a1 1 0 01-.293.707L12 11.414V15a1 1 0 01-.293.707l-2 2A1 1 0 018 17v-5.586L3.293 6.707A1 1 0 013 6V3z" clipRule="evenodd" />
-                                </svg>
+                    <div className="searchDropDown absolute top-14 w-full h-96 bg-white z-50 p-5">
+                        <div className="grid grid-cols-4 gap-4">
+                            <div>
+                                <label id="listbox-label" class="block text-sm font-medium text-gray-700">
+                                    Property Type
+                                </label>
+                                <div class="mt-1 relative">
+                                <button type="button" class="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
+                                    <span class="flex items-center">
+                                        
+                                        <span class="ml-3 block truncate">
+                                        Residentail
+                                        </span>
+                                    </span>
+                                    <span class="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                        
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                                        </svg>
+                                    </span>
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <label id="listbox-label" class="block text-sm font-medium text-gray-700">
+                                    Transaction Type
+                                </label>
+                                <div class="mt-1 relative">
+                                <button type="button" class="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
+                                    <span class="flex items-center">
+                                        
+                                        <span class="ml-3 block truncate">
+                                        For Sale
+                                        </span>
+                                    </span>
+                                    <span class="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                                        </svg>
+                                    </span>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label id="listbox-label" class="block text-sm font-medium text-gray-700">
+                                    Min Price
+                                </label>
+                                <div class="mt-1 relative">
+                                <button type="button" class="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
+                                    <span class="flex items-center">
+                                        
+                                        <span class="ml-3 block truncate">
+                                        0
+                                        </span>
+                                    </span>
+                                    <span class="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                                        </svg>
+                                    </span>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label id="listbox-label" class="block text-sm font-medium text-gray-700">
+                                    Max Price
+                                </label>
+                                <div class="mt-1 relative">
+                                <button type="button" class="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
+                                    <span class="flex items-center">
+                                        
+                                        <span class="ml-3 block truncate">
+                                        Unlimited
+                                        </span>
+                                    </span>
+                                    <span class="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                                        </svg>
+                                    </span>
+                                    </button>
+                                </div>
+                            </div>
+                            
+
+                            <div>
+                                <label id="listbox-label" class="block text-sm font-medium text-gray-700">
+                                    Beds
+                                </label>
+                                <div class="mt-1 relative">
+                                <button type="button" class="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
+                                    <span class="flex items-center">
+                                        
+                                        <span class="ml-3 block truncate">
+                                        Any
+                                        </span>
+                                    </span>
+                                    <span class="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                                        </svg>
+                                    </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div>
+                                <label id="listbox-label" class="block text-sm font-medium text-gray-700">
+                                    Baths
+                                </label>
+                                <div class="mt-1 relative">
+                                <button type="button" class="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
+                                    <span class="flex items-center">
+                                        
+                                        <span class="ml-3 block truncate">
+                                        Any
+                                        </span>
+                                    </span>
+                                    <span class="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                                        </svg>
+                                    </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div>
+                                <label id="listbox-label" class="block text-sm font-medium text-gray-700">
+                                    Land Size
+                                </label>
+                                <div class="mt-1 relative">
+                                <button type="button" class="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
+                                    <span class="flex items-center">
+                                        
+                                        <span class="ml-3 block truncate">
+                                        Any
+                                        </span>
+                                    </span>
+                                    <span class="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                                        </svg>
+                                    </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div>
+                                <label id="listbox-label" class="block text-sm font-medium text-gray-700">
+                                    Listed Since
+                                </label>
+                                <div class="mt-1 relative">
+                                <button type="button" class="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
+                                    <span class="flex items-center">
+                                        
+                                        <span class="ml-3 block truncate">
+                                        mm /dd/ yyyy
+                                        </span>
+                                    </span>
+                                    <span class="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                                        </svg>
+                                    </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div>
+                                <label id="listbox-label" class="block text-sm font-medium text-gray-700">
+                                    Building Type
+                                </label>
+                                <div class="mt-1 relative">
+                                <button type="button" class="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
+                                    <span class="flex items-center">
+                                        
+                                        <span class="ml-3 block truncate">
+                                        Any
+                                        </span>
+                                    </span>
+                                    <span class="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                                        </svg>
+                                    </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div>
+                                <label id="listbox-label" class="block text-sm font-medium text-gray-700">
+                                    Storeys
+                                </label>
+                                <div class="mt-1 relative">
+                                <button type="button" class="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
+                                    <span class="flex items-center">
+                                        
+                                        <span class="ml-3 block truncate">
+                                        Any
+                                        </span>
+                                    </span>
+                                    <span class="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                                        </svg>
+                                    </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div>
+                                <label id="listbox-label" class="block text-sm font-medium text-gray-700">
+                                Ownership/Title
+                                </label>
+                                <div class="mt-1 relative">
+                                <button type="button" class="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
+                                    <span class="flex items-center">
+                                        
+                                        <span class="ml-3 block truncate">
+                                        Any
+                                        </span>
+                                    </span>
+                                    <span class="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                                        </svg>
+                                    </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div>
+                                <label id="listbox-label" class="block text-sm font-medium text-gray-700">
+                                    Open hourse only
+                                </label>
+                                <div class="mt-1 relative">
+                                <button type="button" class="relative w-full bg-white border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
+                                    <span class="flex items-center">
+                                        
+                                        <span class="ml-3 block truncate">
+                                        
+                                        </span>
+                                    </span>
+                                    <span class="ml-3 absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                                        </svg>
+                                    </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="grid grid-cols-2">
+                            <div>
+                                
                             </div>
                         </div>
                     </div>
@@ -204,16 +465,19 @@ export default function Realesate(){
                     </div>
                 </div>
                 <div className="grid grid-cols-3 gap-5">
-                    <div className="shadow-md bg-white mb-2">
+                    <div className="relative shadow-md bg-white mb-2">
+                        <div className="ml-0.5 py-2 px-3 bg-secondaray text-white absolute z-auto text-center">
+                            Sale
+                        </div>
                         <div className="w-full h-72 img-hover-zoom overflow-hidden cursor-pointer">
                             <img src="https://rentkh.com/thumbnail/medium/uploads/202112/695733c516fa0518fbe4a82c01455631.jpeg"/>
                         </div>
                         <div className="p-3 flex justify-between items-center border-b">
-                            <div className="flex">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
-                                </svg>
-                                <span>19</span>
+                            <div className="flex items-center">
+                                <div className="rounded-full w-6 h-6 items-center overflow-hidden">
+                                <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
+                                </div>
+                                <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
                             </div>
                             <div className="flex">
                                 <span>2 Beds</span>
@@ -237,15 +501,18 @@ export default function Realesate(){
                         </div>
                     </div>
                     <div className="shadow-md bg-white mb-2">
+                        <div className="ml-0.5 py-2 px-3 bg-secondaray text-white absolute z-auto text-center">
+                            Rent
+                        </div>
                         <div className="w-full h-72 img-hover-zoom overflow-hidden cursor-pointer">
                             <img src="	https://rentkh.com/thumbnail/medium/uploads/202112/e8045718952f6bde04998ac8760a7783.jpeg"/>
                         </div>
                         <div className="p-3 flex justify-between items-center border-b">
-                            <div className="flex">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
-                                </svg>
-                                <span>19</span>
+                            <div className="flex items-center">
+                                <div className="rounded-full w-6 h-6 items-center overflow-hidden">
+                                <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
+                                </div>
+                                <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
                             </div>
                             <div className="flex">
                                 <span>2 Beds</span>
@@ -269,15 +536,18 @@ export default function Realesate(){
                         </div>
                     </div>
                     <div className="shadow-md bg-white mb-2">
+                        <div className="ml-0.5 py-2 px-3 bg-secondaray text-white absolute z-auto text-center">
+                            Sale
+                        </div>
                         <div className="w-full h-72 img-hover-zoom overflow-hidden cursor-pointer">
                             <img src="https://rentkh.com/thumbnail/medium/uploads/202111/9291d4f739cdc033614387dbe34a2250.jpeg"/>
                         </div>
                         <div className="p-3 flex justify-between items-center border-b">
-                            <div className="flex">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
-                                </svg>
-                                <span>19</span>
+                        <div className="flex items-center">
+                                <div className="rounded-full w-6 h-6 items-center overflow-hidden">
+                                <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
+                                </div>
+                                <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
                             </div>
                             <div className="flex">
                                 <span>2 Beds</span>
@@ -301,15 +571,18 @@ export default function Realesate(){
                         </div>
                     </div>
                     <div className="shadow-md bg-white mb-2">
+                        <div className="ml-0.5 py-2 px-3 bg-secondaray text-white absolute z-auto text-center">
+                            Sale
+                        </div>
                         <div className="w-full h-72 img-hover-zoom overflow-hidden cursor-pointer">
                             <img src="https://rentkh.com/thumbnail/medium/uploads/202112/d8ac01dd6154cda8a2e62c67452ddc77.jpeg"/>
                         </div>
                         <div className="p-3 flex justify-between items-center border-b">
-                            <div className="flex">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
-                                </svg>
-                                <span>19</span>
+                            <div className="flex items-center">
+                                <div className="rounded-full w-6 h-6 items-center overflow-hidden">
+                                <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
+                                </div>
+                                <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
                             </div>
                             <div className="flex">
                                 <span>2 Beds</span>
@@ -333,15 +606,18 @@ export default function Realesate(){
                         </div>
                     </div>
                     <div className="shadow-md bg-white mb-2">
+                        <div className="ml-0.5 py-2 px-3 bg-secondaray text-white absolute z-auto text-center">
+                            Sale
+                        </div>
                         <div className="w-full h-72 img-hover-zoom overflow-hidden cursor-pointer">
                             <img src="https://rentkh.com/thumbnail/medium/uploads/202111/427ddf5b997cf854edeb2177aa701df4.jpeg"/>
                         </div>
                         <div className="p-3 flex justify-between items-center border-b">
-                            <div className="flex">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
-                                </svg>
-                                <span>19</span>
+                            <div className="flex items-center">
+                                <div className="rounded-full w-6 h-6 items-center overflow-hidden">
+                                <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
+                                </div>
+                                <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
                             </div>
                             <div className="flex">
                                 <span>2 Beds</span>
@@ -365,15 +641,18 @@ export default function Realesate(){
                         </div>
                     </div>
                     <div className="shadow-md bg-white mb-2">
+                        <div className="ml-0.5 py-2 px-3 bg-secondaray text-white absolute z-auto text-center">
+                            Sale
+                        </div>
                         <div className="w-full h-72 img-hover-zoom overflow-hidden cursor-pointer">
                             <img src="https://rentkh.com/thumbnail/large/uploads/202112/f19056c3f7aa0ee54f1018c96ab2e3c3.jpeg"/>
                         </div>
                         <div className="p-3 flex justify-between items-center border-b">
-                            <div className="flex">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
-                                </svg>
-                                <span>19</span>
+                            <div className="flex items-center">
+                                <div className="rounded-full w-6 h-6 items-center overflow-hidden">
+                                <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
+                                </div>
+                                <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
                             </div>
                             <div className="flex">
                                 <span>2 Beds</span>

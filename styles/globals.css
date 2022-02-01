@@ -9,7 +9,7 @@ html{
 body {
   font-family: 'Nokora', serif !important;
 }
-a{
+*{
   font-family: 'Nokora', serif !important;
 }
 /*  Slider */
@@ -179,5 +179,18 @@ a{
   /* The height is 400 pixels */
   width: 100%;
   /* The width is the width of the web page */
+}
+.form-group{
+  margin-bottom: 1rem;
+}
+.form-group label{
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+.h-news{
+  height: 410px;
+}
+.text-shadow{
+  text-shadow: 2px 2px 1px #000;
 }
 

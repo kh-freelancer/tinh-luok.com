@@ -9,7 +9,11 @@ module.exports = {
       'black'  : '#000000',
       'pink'  : '#fe4164',
       'facebook' : '#3c59aa',
+      'gray'  : '#d7dbdd',
     },
+    gradientColorStops: theme => ({
+      ...theme('colors'),
+    }),
     extend: {},
   },
   variants: {
