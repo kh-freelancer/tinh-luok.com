@@ -19,7 +19,7 @@ export default function News() {
                         <div className="absolute w-full bottom-0 bg-gradient-to-t from-gray-900 to-transparent p-5  z-50 text-white">
                             <div className="bottom-0">
                                 <h1 className="text-2xl font-semibold">
-                                    <Link href="/news/slug" className="text-shadow text-white hover:text-yellow-600 cursor-pointer">
+                                    <Link href="/news/slug" passHref className="text-shadow text-white hover:text-yellow-600 cursor-pointer">
                                     តារាប្រុសទាំង៣រូបនេះ បានធ្វើឲ្យហ្វេន sad ព្រោះតែមានម្ចាស់បេះដូងរួចហើយ
                                     </Link>
                                 </h1>
@@ -37,7 +37,7 @@ export default function News() {
                             </div>
                         </div>
                         <div className="h-news img-hover-zoom cursor-pointer overflow-hidden bg-gradient-to-t from-current to-transparent">
-                            <Link href="/news/slug">
+                            <Link href="/news/slug" passHref>
                             <Image src={NEWS_IMAGES['news-top-left']} alt="News top left"/>
                             </Link>
                         </div>
@@ -45,13 +45,13 @@ export default function News() {
                     <div className="w-1/3">
                         <div className="h-news rounded overflow-hidden">
                             <div className="h-48 img-hover-zoom overflow-hidden cursor-pointer">
-                            <Link href="/news/slug">
+                            <Link href="/news/slug" passHref>
                                 <Image className="w-full h-full object-contain" src={NEWS_IMAGES['news-top-right']} alt="new top right"/>
                             </Link>
                             </div>
                             <div className="p-5 bg-gray">
                                 <span className="text-md font-bold text-black">
-                                    <Link href="/news/slug" className="cursor-pointer hover:text-yellow-600">
+                                    <Link href="/news/slug" passHref className="cursor-pointer hover:text-yellow-600">
                                     ពរពោះកូនភ្លោះឡើងប៉ុន្មានខែហើយ វីរៈនិច នៅលេងខ្លួនខោខៅប៊យរឹបៗទៀត
                                     </Link>
                                 </span>
@@ -86,13 +86,13 @@ export default function News() {
                         <div className="grid grid-cols-2 gap-6">
                             <div className="h-news rounded overflow-hidden bg-gray">
                                 <div className="h-48 img-hover-zoom overflow-hidden cursor-pointer">
-                                    <Link href="/news/slug">
+                                    <Link href="/news/slug" passHref>
                                     <Image className="w-full h-full object-contain" src={NEWS_IMAGES['news-l01']} alt="news left 01"/>
                                     </Link>
                                 </div>
                                 <div className="p-5">
                                     <span className="text-md font-bold text-black">
-                                        <Link href="/news/slug" className="cursor-pointer hover:text-yellow-600">
+                                        <Link href="/news/slug" passHref className="cursor-pointer hover:text-yellow-600">
                                         ហ្វេនភាគច្រើនមិនដឹង! តាមពិត តារា Kpop ទាំងនេះ ជាបងប្អូនគ្នា
                                         </Link>
                                     </span>
@@ -122,13 +122,13 @@ export default function News() {
                             </div>
                             <div className="h-news rounded overflow-hidden bg-gray">
                                 <div className="h-48 img-hover-zoom overflow-hidden cursor-pointer">
-                                    <Link href="/news/slug">
+                                    <Link href="/news/slug" passHref>
                                     <Image className="w-full h-full object-contain" src={NEWS_IMAGES['news-l02']} alt="news left 02"/>
                                     </Link>
                                 </div>
                                 <div className="p-5">
                                     <span className="text-md font-bold text-black">
-                                        <Link href="/news/slug" className="cursor-pointer hover:text-yellow-600">
+                                        <Link href="/news/slug" passHref className="cursor-pointer hover:text-yellow-600">
                                         Rashford ផ្ញើសារទៅកាន់ Van de Beek បែបនេះក្រោយគេសម្រេចចិត្តផ្លា
                                         </Link>
                                     </span>
@@ -160,15 +160,15 @@ export default function News() {
                         <div className="mt-6 flex gap-4">
                             <div className="w-1/3">
                                 <div className="rounded overflow-hidden img-hover-zoom">
-                                    <a href="/news/slug" className="cursor-pointer">
+                                    <Link href="/news/slug" passHref className="cursor-pointer">
                                     <Image className="rounded w-full object-cover" src={NEWS_IMAGES['news-b1']} alt="news body 1"/>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="w-2/3">
                                 <div className="pb-3">
                                     <span className="text-md font-bold text-black">
-                                        <Link href="/news/slug" className="cursor-pointer hover:text-yellow-600">
+                                        <Link href="/news/slug" passHref className="cursor-pointer hover:text-yellow-600">
                                         មិនឲ្យហ្វេនផ្សំផ្គុំយ៉ាងម៉េច បើ Hae-in និង Jisoo លេងរឿង «Snowdrop» សមគ្នាយ៉ាងនេះ!
                                         </Link>
                                     </span>
@@ -200,7 +200,7 @@ export default function News() {
                         <div className="mt-6 flex gap-4">
                             <div className="w-1/3">
                                 <div className="rounded overflow-hidden img-hover-zoom">
-                                    <Link href="/news/slug" className="cursor-pointer">
+                                    <Link href="/news/slug" passHref className="cursor-pointer">
                                     <Image className="rounded w-full object-cover" src={NEWS_IMAGES['news-b2']} alt="new body 2"/>
                                     </Link>
                                 </div>
@@ -208,7 +208,7 @@ export default function News() {
                             <div className="w-2/3">
                                 <div className="pb-3">
                                     <span className="text-md font-bold text-black">
-                                        <Link href="/news/slug" className="cursor-pointer hover:text-yellow-600">
+                                        <Link href="/news/slug" passHref className="cursor-pointer hover:text-yellow-600">
                                         Lee Yoo Mi ក្នុងរឿង Squid Game គេស្រលាញ់គ្រប់គ្នា ដល់ក្នុងរឿងថ្មីនេះ គេជេគ្រប់គ្នាទៅវិញ
                                         </Link>
                                     </span>
@@ -241,7 +241,7 @@ export default function News() {
                         <div className="mt-6 flex gap-4">
                             <div className="w-1/3">
                                 <div className="rounded overflow-hidden img-hover-zoom">
-                                    <Link href="/news/slug" className="cursor-pointer">
+                                    <Link href="/news/slug" passHref className="cursor-pointer">
                                     <Image className="rounded w-full object-cover" src={NEWS_IMAGES['news-b3']} alt="news body 3"/>
                                     </Link>
                                 </div>
@@ -249,7 +249,7 @@ export default function News() {
                             <div className="w-2/3">
                                 <div className="pb-3">
                                     <span className="text-md font-bold text-black">
-                                        <Link href="/news/slug" className="cursor-pointer hover:text-yellow-600">
+                                        <Link href="/news/slug" passHref className="cursor-pointer hover:text-yellow-600">
                                         មិនខ្វល់ប្រើរបស់ Fake ឬអត់ Ji A នៅតែទទួលបានលេខ ១ ជាអ្នក​បង្អួត​ទ្រព្យខ្លាំងជាងគេ​
                                         </Link>
                                     </span>
@@ -282,7 +282,7 @@ export default function News() {
                         <div className="mt-6 flex gap-4">
                             <div className="w-1/3">
                                 <div className="rounded overflow-hidden img-hover-zoom">
-                                    <Link href="/news/slug" className="cursor-pointer">
+                                    <Link href="/news/slug" passHref className="cursor-pointer">
                                     <Image className="rounded w-full object-cover" src={NEWS_IMAGES['news-b4']} alt="news body 4"/>
                                     </Link>
                                 </div>
@@ -290,7 +290,7 @@ export default function News() {
                             <div className="w-2/3">
                                 <div className="pb-3">
                                     <span className="text-md font-bold text-black">
-                                        <Link href="/news/slug" className="cursor-pointer hover:text-yellow-600">
+                                        <Link href="/news/slug" passHref className="cursor-pointer hover:text-yellow-600">
                                         និយាយខុសមួយម៉ាត់ចាំមួយជីវិត! Justin Bieber រម្លឹកអតីតកាល Charlie Puth ធ្លាប់ធ្វើបា.បផ្លូវចិត្តខ្លួន កាលពី៦ឆ្នាំមុន
                                         </Link>
                                     </span>
