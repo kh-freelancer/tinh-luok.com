@@ -76,7 +76,9 @@ export default function Header() {
                         <div className="flex items-center">
                             <div className="w-1/5">
                                 <Link href="/" passHref>
+                                    <a className="cursor-pointer">
                                     <Image src={siteLogo} alt="Logo" width={80} height={80}/>
+                                    </a>
                                 </Link>
                             </div>
                             <div className="w-4/5">
