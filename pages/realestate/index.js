@@ -407,49 +407,49 @@ export default function Realesate(){
                         <div className="grid grid-cols-4 justify-between">
                             <div className="border text-center">
                                 <div>
-                                    <Image className="h-12" src={MENU_IMAGES['menu-house']}/>
+                                    <Image className="h-12" src={MENU_IMAGES['menu-house']} alt="menu-house"/>
                                 </div>
                                 <div>House</div>
                             </div>
                             <div className="border  text-center">
                                 <div>
-                                    <Image className="h-12" src={MENU_IMAGES['menu-car']}/>
+                                    <Image className="h-12" src={MENU_IMAGES['menu-car']} alt="menu-car"/>
                                 </div>
                                 <div>Lands</div>
                             </div>
                             <div className="border text-center">
                                 <div>
-                                    <Image className="h-12" src={MENU_IMAGES['menu-moto']}/>
+                                    <Image className="h-12" src={MENU_IMAGES['menu-moto']} alt="menu-moto"/>
                                 </div>
                                 <div>Apartment & Condo</div>
                             </div>
                             <div className="border text-center">
                                 <div>
-                                    <Image className="h-12" src={MENU_IMAGES['menu-handset']}/>
+                                    <Image className="h-12" src={MENU_IMAGES['menu-handset']} alt="menu-handset"/>
                                 </div>
                                 <div>Commercial Properties</div>
                             </div>
                             <div className="border text-center">
                                 <div>
-                                    <Image className="h-12" src={MENU_IMAGES['menu-house']}/>
+                                    <Image className="h-12" src={MENU_IMAGES['menu-house']} alt="menu-house"/>
                                 </div>
                                 <div>Resort</div>
                             </div>
                             <div className="border text-center">
                                 <div>
-                                    <Image className="h-12" src={MENU_IMAGES['menu-car']}/>
+                                    <Image className="h-12" src={MENU_IMAGES['menu-car']} alt="menu-car"/>
                                 </div>
                                 <div>Borys</div>
                             </div>
                             <div className="border text-center">
                                 <div>
-                                    <Image className="h-12" src={MENU_IMAGES['menu-phone']}/>
+                                    <Image className="h-12" src={MENU_IMAGES['menu-phone']} alt="menu-phone"/>
                                 </div>
                                 <div>Room</div>
                             </div>
                             <div className="border text-center">
                                 <div>
-                                    <Image className="h-12" src={MENU_IMAGES['menu-phone']}/>
+                                    <Image className="h-12" src={MENU_IMAGES['menu-phone']} alt="menu-phone"/>
                                 </div>
                                 <div>News</div>
                             </div>
@@ -475,7 +475,7 @@ export default function Realesate(){
                         <div className="p-3 flex justify-between items-center border-b">
                             <div className="flex items-center">
                                 <div className="rounded-full w-6 h-6 items-center overflow-hidden">
-                                <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
+                                <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt="user"/>
                                 </div>
                                 <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
                             </div>
@@ -510,7 +510,7 @@ export default function Realesate(){
                         <div className="p-3 flex justify-between items-center border-b">
                             <div className="flex items-center">
                                 <div className="rounded-full w-6 h-6 items-center overflow-hidden">
-                                <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
+                                <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt="user"/>
                                 </div>
                                 <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
                             </div>
@@ -545,7 +545,7 @@ export default function Realesate(){
                         <div className="p-3 flex justify-between items-center border-b">
                         <div className="flex items-center">
                                 <div className="rounded-full w-6 h-6 items-center overflow-hidden">
-                                <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
+                                <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt="user"/>
                                 </div>
                                 <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
                             </div>
@@ -580,7 +580,7 @@ export default function Realesate(){
                         <div className="p-3 flex justify-between items-center border-b">
                             <div className="flex items-center">
                                 <div className="rounded-full w-6 h-6 items-center overflow-hidden">
-                                <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
+                                <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt="user"/>
                                 </div>
                                 <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
                             </div>
@@ -615,7 +615,7 @@ export default function Realesate(){
                         <div className="p-3 flex justify-between items-center border-b">
                             <div className="flex items-center">
                                 <div className="rounded-full w-6 h-6 items-center overflow-hidden">
-                                <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
+                                <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt="user"/>
                                 </div>
                                 <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
                             </div>
@@ -650,7 +650,7 @@ export default function Realesate(){
                         <div className="p-3 flex justify-between items-center border-b">
                             <div className="flex items-center">
                                 <div className="rounded-full w-6 h-6 items-center overflow-hidden">
-                                <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt=""/>
+                                <Image src={USER_IMAGES['sron-chhitly']} className="w-6 h-6 rounded-full object-cover" alt="user"/>
                                 </div>
                                 <span className="px-1 text-xs text-gray-500">Sron Chhitly</span>
                             </div>
@@ -677,7 +677,7 @@ export default function Realesate(){
                     </div>
                 </div>
                 <div className="mt-10 text-center">
-                    <a href="#" className="m-auto px-5 py-2 border-2  border-yellow-500 font-bold rounded">Load More</a>
+                    <a href="#" className="m-auto px-5 py-2 border-2 border-yellow-500 font-bold rounded">Load More</a>
                 </div>
             </div>
         </>
