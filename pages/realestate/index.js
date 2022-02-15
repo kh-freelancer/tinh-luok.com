@@ -82,6 +82,12 @@ export default function Realesate(){
             <Head>
                 <title>Realesate</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <meta name="description" content="Complete description of the content showed in this sample page."/>
+                <meta property="og:title" content="Realesate"/>
+                <meta property="og:site_name" content="Tinh Luok"/>
+                <meta property="og:description" content="Real Esate description"/>
+                <meta property="og:url" content="https://tinh-luok.netlify.app"/>
+                <meta property="og:type" content="website"/>
             </Head>
             <RegularMap
                 googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyAljPvHVh4eGE52ntuN1oL5O_x7o3QsA44"
