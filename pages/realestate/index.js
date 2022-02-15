@@ -5,16 +5,91 @@ import PRODUCT_IMAGES from '../../src/product_images'
 import MENU_IMAGES from '../../src/menu_categoy'
 import USER_IMAGES from '../../src/user_image'
 
-export default function Realesate(){
-    const handelDropDown = (e) => {
-        console.log(1111);
+import React from 'react';
+import {
+  withScriptjs,
+  withGoogleMap,
+  GoogleMap,
+  Marker
+} from "react-google-maps";
+
+const defaultCenter = {lat: 11.570652,lng: 104.921423};
+
+const defaultOptions = { scrollwheel: true };
+
+const locations = [
+    {
+      name: "Location 1",
+      location: { 
+        lat: 11.533969, 
+        lng: 104.925889
+      }
+    },
+    {
+      name: "Location 2",
+      location: { 
+        lat: 11.535431,
+        lng: 104.954171
+      }
+    },
+    {
+      name: "Location 3",
+      location: { 
+        lat: 11.50229, 
+        lng: 104.94022
+      }
+    },
+    {
+      name: "Location 4",
+      location: { 
+        lat: 11.53768,
+        lng: 104.88818
+      }
+    },
+    {
+      name: "Location 5",
+      location: { 
+        lat: 11.58487,
+        lng: 104.90022
+      }
     }
+  ];
+
+const RegularMap = withScriptjs(
+  withGoogleMap(props => (
+    <GoogleMap
+      defaultZoom={12}
+      defaultCenter={ defaultCenter }
+      defaultOptions={ defaultOptions }
+    >
+    {
+        locations.map((item, index) => {
+            return <Marker key={index} position={ item.location } />
+        })
+    }
+    </GoogleMap>
+  ))
+);
+
+const loadingElementStyle = { height: '100%' };
+const containerElementStyle = { height: '580px' };
+const mapElementStyle = { height: '100%' };
+
+
+export default function Realesate(){
     return (
         <>
             <Head>
                 <title>Realesate</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             </Head>
+            <RegularMap
+                googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyAljPvHVh4eGE52ntuN1oL5O_x7o3QsA44"
+                loadingElement={<div style={ loadingElementStyle } />}
+                containerElement={<div style={ containerElementStyle } />}
+                mapElement={<div style={ mapElementStyle } />}
+                />
+
             <div className="mb-16 container max-w-screen-xl m-auto">
                 <div className="relative">
                     <div className="flex gap-4 my-5 justify-end items-center">
@@ -76,7 +151,7 @@ export default function Realesate(){
                             </div>
                         </div>
                         <div className="w-1/6">
-                            <div onClick={handelDropDown} className="flex justify-between items-center pl-3 border-2 h-12 rounded-full border-yellow-500 bg-white">
+                            <div className="flex justify-between items-center pl-3 border-2 h-12 rounded-full border-yellow-500 bg-white">
                                 <div>Filters</div>
                                 <div className="w-10 h-10 flex justify-center items-center rounded-full bg-primary hover:bg-secondaray p-2 cursor-pointer text-white">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
@@ -86,7 +161,7 @@ export default function Realesate(){
                             </div>
                         </div>
                     </div>
-                    <div className="searchDropDown absolute top-14 w-full h-96 bg-white z-50 p-5">
+                    <div className="searchDropDown absolute top-14 w-full h-96 bg-white z-50 p-5 hidden">
                         <div className="grid grid-cols-4 gap-4">
                             <div>
                                 <label id="listbox-label" className="block text-sm font-medium text-gray-700">
